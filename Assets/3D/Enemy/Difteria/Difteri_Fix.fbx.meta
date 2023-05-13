@@ -3,7 +3,12 @@ guid: 85b9d377ca6f6114f89b8020a1458dfb
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_Difteri.png
+    second: {fileID: 2100000, guid: e6c8c563b8f949b43b0779c8e8c0f068, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
