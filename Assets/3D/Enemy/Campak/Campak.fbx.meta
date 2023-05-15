@@ -3,7 +3,12 @@ guid: 74f67312ca67baf428294939a14e270f
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_Campak.png
+    second: {fileID: 2100000, guid: 135eb3930d14166419b2b149eb583908, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
