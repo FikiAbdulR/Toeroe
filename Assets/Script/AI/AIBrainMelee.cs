@@ -9,6 +9,9 @@ public class AIBrainMelee : MonoBehaviour
     private Transform player;
     public LayerMask Player;
 
+    public int Health;
+    int defaultHealth;
+
     [Range(0, 10)] public float speed;
     [Range(1, 50)] public float walkRadius;
     public float sightRange, attackRange;
@@ -23,6 +26,11 @@ public class AIBrainMelee : MonoBehaviour
     public float timeBetweenAttacks;
     bool alreadyAttacked;
 
+    private void Awake()
+    {
+        defaultHealth = Health;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +41,7 @@ public class AIBrainMelee : MonoBehaviour
         GenerateRandInt();
 
         AttackBox.enabled = false;
+        Health = defaultHealth;
     }
 
     void LateUpdate()
@@ -53,6 +62,11 @@ public class AIBrainMelee : MonoBehaviour
         else if (playerInAttackRange && playerInSightRange)
         {
             Attack();
+        }
+
+        if(Health == 0)
+        {
+            EnemyDeath();
         }
     }
     private void ResetAttack()
@@ -150,7 +164,7 @@ public class AIBrainMelee : MonoBehaviour
 
     public void EnemyDeath()
     {
-        this.gameObject.GetComponent<BoxCollider>().enabled = false;
         agent.Stop();
+        this.gameObject.SetActive(false);
     }
 }

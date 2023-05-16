@@ -9,6 +9,9 @@ public class AIBrainProjectile : MonoBehaviour
     private Transform player;
     public LayerMask Player;
 
+    public int Health;
+    int defaultHealth;
+
     [Range(0, 10)] public float speed;
     [Range(1, 50)] public float walkRadius;
     public float sightRange, attackRange;
@@ -30,6 +33,11 @@ public class AIBrainProjectile : MonoBehaviour
     private List<GameObject> pooledObjects = new List<GameObject>();
     private int amountToPool = 5;
 
+    private void Awake()
+    {
+        defaultHealth = Health;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +46,8 @@ public class AIBrainProjectile : MonoBehaviour
 
         isPatrolling = true;
         GenerateRandInt();
+
+        Health = defaultHealth;
 
         for (int i = 0; i < amountToPool; i++)
         {
@@ -65,6 +75,11 @@ public class AIBrainProjectile : MonoBehaviour
         else if (playerInAttackRange && playerInSightRange)
         {
             Attack();
+        }
+
+        if (Health == 0)
+        {
+            EnemyDeath();
         }
     }
     private void ResetAttack()
@@ -181,5 +196,11 @@ public class AIBrainProjectile : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, attackRange);
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, sightRange);
+    }
+
+    public void EnemyDeath()
+    {
+        agent.Stop();
+        this.gameObject.SetActive(false);
     }
 }

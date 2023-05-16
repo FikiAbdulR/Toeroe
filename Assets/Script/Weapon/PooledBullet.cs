@@ -7,7 +7,7 @@ public class PooledBullet : MonoBehaviour
     public float speed = 5f;
     [SerializeField] private Rigidbody rb;
 
-    public static float bulletDamage = 2f;
+    public int bulletDamage = 10;
 
     public static float knockBackStrength = 10f;
 
@@ -31,6 +31,9 @@ public class PooledBullet : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Enemy"))
         {
+            collision.gameObject.GetComponent<AIBrainMelee>().Health -= bulletDamage;
+            collision.gameObject.GetComponent<AIBrainProjectile>().Health -= bulletDamage;
+
             this.gameObject.SetActive(false);
             rb.velocity = Vector3.zero;
         }
