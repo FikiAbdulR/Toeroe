@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 1
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 32.7
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.33333334
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -174,9 +174,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -236,9 +280,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -391,7 +479,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31152136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.27, y: 1.02, z: 12.31}
+  m_LocalPosition: {x: 0.6, y: 1.02, z: 13.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -605,9 +693,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -703,9 +835,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -765,9 +941,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -805,7 +1025,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143812866}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6, z: 0}
+  m_LocalPosition: {x: 13.4, y: 0.6, z: -24.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1060,9 +1280,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -1184,9 +1448,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -1246,9 +1554,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -1370,9 +1722,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -1431,6 +1827,34 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8f334d3c96520ab42a54ffbc21ed74af, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7634086059715169449, guid: 8f334d3c96520ab42a54ffbc21ed74af, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7634086059715169449, guid: 8f334d3c96520ab42a54ffbc21ed74af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1694440921653103834, guid: 8f334d3c96520ab42a54ffbc21ed74af, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1694440921653103834, guid: 8f334d3c96520ab42a54ffbc21ed74af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -506439060164748770, guid: 8f334d3c96520ab42a54ffbc21ed74af, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 156016053890122275, guid: 8f334d3c96520ab42a54ffbc21ed74af, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 156016053890122275, guid: 8f334d3c96520ab42a54ffbc21ed74af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8f334d3c96520ab42a54ffbc21ed74af, type: 3}
       propertyPath: m_Name
@@ -1645,9 +2069,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -1707,9 +2175,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5976071629391176779, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -885264430177597064, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe1_T2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396792749669637682, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574091114309173524, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773935864695782916, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
@@ -1866,9 +2366,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -1946,9 +2490,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -7323665221885429379, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7323665221885429379, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -3545761806737804654, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3545761806737804654, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -506439060164748770, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe2_T2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962215943497571404, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962215943497571404, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242569468604985166, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242569468604985166, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23e36737e183f7d45aa040522fd8ae77, type: 3}
@@ -2008,9 +2596,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -2168,9 +2800,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -2357,9 +3033,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -2419,9 +3139,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5976071629391176779, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -885264430177597064, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe1_T3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396792749669637682, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574091114309173524, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773935864695782916, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
@@ -2485,6 +3237,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warung
       objectReference: {fileID: 0}
+    - target: {fileID: 2271442641708035657, guid: e3a523d25ba6d5840933c1927800c6d8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271442641708035657, guid: e3a523d25ba6d5840933c1927800c6d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3a523d25ba6d5840933c1927800c6d8, type: 3}
 --- !u!4 &596535066 stripped
@@ -2543,9 +3303,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -2605,9 +3409,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -2667,9 +3515,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -2728,6 +3620,30 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -5389858818182741143, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2754044603373108457, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -506439060164748770, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 569537436656820716, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
       propertyPath: m_Name
@@ -2857,6 +3773,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93c067a8b64b77343bfcf3b88ce12dd4, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe1_T3
@@ -2977,9 +3901,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -7323665221885429379, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7323665221885429379, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -3545761806737804654, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3545761806737804654, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -506439060164748770, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962215943497571404, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962215943497571404, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242569468604985166, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242569468604985166, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bbc3a654324d1a4cbfb1d0a0187425d, type: 3}
@@ -3559,9 +4527,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -3621,9 +4633,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5976071629391176779, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -885264430177597064, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe1_T1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396792749669637682, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574091114309173524, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773935864695782916, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
@@ -3683,9 +4727,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -3745,9 +4833,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -3807,9 +4939,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -3887,9 +5063,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -3948,6 +5168,14 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 54100f045774da9479f96db4fbe16d6f, type: 3}
       propertyPath: m_Name
@@ -4085,9 +5313,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -4147,9 +5419,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -4209,9 +5525,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -4333,9 +5693,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -4575,9 +5979,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -4637,9 +6085,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -4775,6 +6267,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -5389858818182741143, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2754044603373108457, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -506439060164748770, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 569537436656820716, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cb1462c80769b474ba44b2aa0792c146, type: 3}
       propertyPath: m_Name
       value: Pos_Kamling (1)
@@ -4837,9 +6353,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -4899,9 +6459,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -4979,9 +6583,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -5041,9 +6689,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -5103,9 +6795,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -5281,9 +7017,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -5343,9 +7123,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -5453,9 +7277,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5976071629391176779, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -885264430177597064, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe1_T2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396792749669637682, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574091114309173524, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773935864695782916, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
@@ -5675,9 +7531,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -5768,9 +7668,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -5928,9 +7872,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -5990,9 +7978,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -6052,9 +8084,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -6114,9 +8190,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -6309,9 +8429,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -6371,9 +8535,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -6433,9 +8641,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -6557,9 +8809,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -6619,9 +8915,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -6681,9 +9021,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -6774,9 +9158,137 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8413807372977139807, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8413807372977139807, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -5560876209452058373, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5560876209452058373, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -5417021669110320106, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5417021669110320106, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -5336946345213902144, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5336946345213902144, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -5115346618924855310, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5115346618924855310, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -3943386298884182257, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3943386298884182257, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1418196377687224233, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1418196377687224233, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -468521080101047385, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -468521080101047385, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
       propertyPath: m_Name
       value: Lapangan_Fix
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869631806834367424, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869631806834367424, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126885093242023650, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126885093242023650, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3235097743853219452, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3235097743853219452, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984441084350303234, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984441084350303234, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5384766377393498013, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5384766377393498013, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517961579459804541, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517961579459804541, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025369728066708997, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025369728066708997, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062829913728294852, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062829913728294852, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7db70b5f2b864e4ea67d37d220c023b, type: 3}
@@ -6836,9 +9348,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -7323665221885429379, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7323665221885429379, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -3545761806737804654, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3545761806737804654, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -506439060164748770, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe2_T1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962215943497571404, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962215943497571404, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242569468604985166, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242569468604985166, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
@@ -6898,9 +9454,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -7134,9 +9734,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -7214,9 +9858,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -7276,9 +9964,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -7462,9 +10194,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -7702,9 +10478,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 156016053890122275, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 156016053890122275, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 540079237744364786, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 540079237744364786, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
       propertyPath: m_Name
       value: Sekolah_SD
+      objectReference: {fileID: 0}
+    - target: {fileID: 4682069337827767269, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4682069337827767269, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499607401669176173, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499607401669176173, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712431234129420566, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712431234129420566, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8731401352929328052, guid: cb48d2420493e76408cc0b2c840ff4ba, type: 3}
       propertyPath: m_Convex
@@ -7966,9 +10782,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -8028,9 +10888,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -8090,9 +10994,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -8183,9 +11131,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -8276,9 +11268,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -8374,9 +11410,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -8513,9 +11593,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -8618,9 +11742,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -8842,9 +12010,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8010990446375964485, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -7323665221885429379, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7323665221885429379, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -3545761806737804654, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3545761806737804654, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -506439060164748770, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe2_T1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962215943497571404, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962215943497571404, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242569468604985166, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242569468604985166, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8fa5ec24e985384f99d68bfcb208dd6, type: 3}
@@ -8904,9 +12116,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2293891744813894858, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1392910632364968595, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -54642029948686381, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
       propertyPath: m_Name
       value: Tembok_Beton (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122350167956967523, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824603495823929426, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594277722425382170, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8328f5b0674c54743a1b62667268579a, type: 3}
@@ -9121,9 +12377,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5976071629391176779, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477864577585124648, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -885264430177597064, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
       propertyPath: m_Name
       value: Rumah_Tipe1_T2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396792749669637682, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574091114309173524, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773935864695782916, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 426f42d1d053960449ad05b739e76b29, type: 3}
