@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -18,11 +19,14 @@ public class EnemySpawner : MonoBehaviour
 
     public bool canSpawn = true;
 
+    public CanvasGroup RoundClear;
+
     // Use this for initialization
     void Start()
     {
         Index = SpawnLimit;
         objectPools = GetComponentsInChildren<ObjectPoolScript>();
+        RoundClear.alpha = 0;
     }
 
     // Update is called once per frame
@@ -33,10 +37,17 @@ public class EnemySpawner : MonoBehaviour
 
         if (totalEnemy.Length == 0 && !canSpawn)
         {
-            OnDelayWave();
+            WaveComplete();
             Debug.Log("Wave Complete");
         }
     }
+
+    void WaveComplete()
+    {
+        OnDelayWave();
+        RoundClear.alpha = 1;
+    }
+
     void OnDelayWave()
     {
         CurrentDelay += Time.deltaTime;
@@ -49,6 +60,7 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnNextWave()
     {
+        RoundClear.alpha = 0;
         //currentWaveNumber++;
         canSpawn = true;
         Index = SpawnLimit;
