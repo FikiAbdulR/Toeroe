@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnerTest : MonoBehaviour
+public class SpawnerModule : MonoBehaviour
 {
-    public GameObject objectPrefab; // Prefab of the object to spawn
+    //public GameObject objectPrefab; // Prefab of the object to spawn
     public float spawnInterval = 1f; // Interval between object spawns
     public int objectsPerWave = 10; // Number of objects to spawn per wave
     public int totalWaves = 3; // Total number of waves in the game
@@ -15,9 +15,14 @@ public class SpawnerTest : MonoBehaviour
     private int activeObjects = 0; // Number of currently active objects
     private bool isWaveInProgress = false; // Flag to track if a wave is in progress
 
+    ObjectPoolScript[] objectPools;
+    public GameObject[] positions;
+
+
     private void Start()
     {
         StartNewWave();
+        objectPools = GetComponentsInChildren<ObjectPoolScript>();
     }
 
     private void Update()
@@ -62,8 +67,15 @@ public class SpawnerTest : MonoBehaviour
         }
 
         // Spawn an object
-        GameObject newObject = Instantiate(objectPrefab, transform.position, Quaternion.identity);
-        newObject.SetActive(true);
+        int randomPool = Random.Range(0, objectPools.Length);
+        int randomPosition = Random.Range(0, positions.Length);
+
+        GameObject obj = objectPools[randomPool].GetPooledObject();
+
+        if (obj == null) return;
+
+        obj.transform.position = positions[randomPosition].transform.position;
+        obj.SetActive(true);
 
         spawnedObjects++;
         activeObjects++;

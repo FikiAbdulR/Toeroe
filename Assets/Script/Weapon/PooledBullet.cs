@@ -23,7 +23,7 @@ public class PooledBullet : MonoBehaviour
         rb.velocity = transform.forward * speed;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if(collision.gameObject.CompareTag("Wall"))
         {
@@ -31,9 +31,15 @@ public class PooledBullet : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<AIBrainMelee>().Health -= bulletDamage;
-            collision.gameObject.GetComponent<AIBrainProjectile>().Health -= bulletDamage;
+            if(collision.gameObject.GetComponent<AIBrainMelee>() != null)
+            {
+                collision.gameObject.GetComponent<AIBrainMelee>().Health -= bulletDamage;
+            }
 
+            if(collision.gameObject.GetComponent<AIBrainProjectile>() != null)
+            {
+                collision.gameObject.GetComponent<AIBrainProjectile>().Health -= bulletDamage;
+            }
             this.gameObject.SetActive(false);
             rb.velocity = Vector3.zero;
         }
