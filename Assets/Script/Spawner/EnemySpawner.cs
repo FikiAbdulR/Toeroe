@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public static EnemySpawner instance;
-
     ObjectPoolScript[] objectPools;
     public GameObject[] positions;
 
@@ -20,19 +19,14 @@ public class EnemySpawner : MonoBehaviour
 
     public bool canSpawn = true;
 
-    private void Awake()
-    {
-        if(instance == null)
-        {
-            instance = this;
-        }
-    }
+    public CanvasGroup RoundClear;
 
     // Use this for initialization
     void Start()
     {
         Index = SpawnLimit;
         objectPools = GetComponentsInChildren<ObjectPoolScript>();
+        RoundClear.alpha = 0;
     }
 
     // Update is called once per frame
@@ -43,13 +37,19 @@ public class EnemySpawner : MonoBehaviour
 
         if (totalEnemy.Length == 0 && !canSpawn)
         {
-            OnDelayWave();
+            WaveComplete();
             Debug.Log("Wave Complete");
         }
     }
+
+    void WaveComplete()
+    {
+        OnDelayWave();
+        RoundClear.alpha = 1;
+    }
+
     void OnDelayWave()
     {
-        Debug.Log("On Delay");
         CurrentDelay += Time.deltaTime;
         if (CurrentDelay > waveDelay)
         {
@@ -60,7 +60,7 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnNextWave()
     {
-        Debug.Log("Spawning");
+        RoundClear.alpha = 0;
         //currentWaveNumber++;
         canSpawn = true;
         Index = SpawnLimit;
@@ -69,11 +69,13 @@ public class EnemySpawner : MonoBehaviour
     public void Spawning()
     {
         timeSinceLastSpawn += Time.deltaTime;
-
+        
         if (canSpawn)
         {
             if (timeSinceLastSpawn > spawnTime && objectPools != null)
             {
+                Index--;
+
                 int randomPool = Random.Range(0, objectPools.Length);
                 int randomPosition = Random.Range(0, positions.Length);
                 try

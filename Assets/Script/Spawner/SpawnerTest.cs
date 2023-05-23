@@ -10,10 +10,10 @@ public class SpawnerTest : MonoBehaviour
     public int totalWaves = 3; // Total number of waves in the game
     public float waveDelay = 3f; // Delay between waves
 
-    private int currentWave = 0; // Current wave number
-    private int spawnedObjects = 0; // Number of objects spawned in the current wave
-    private int activeObjects = 0; // Number of currently active objects
-    private bool isWaveInProgress = false; // Flag to track if a wave is in progress
+    [SerializeField] private int currentWave = 0; // Current wave number
+    [SerializeField] private int spawnedObjects = 0; // Number of objects spawned in the current wave
+    [SerializeField] private int activeObjects = 0; // Number of currently active objects
+    [SerializeField] private bool isWaveInProgress = false; // Flag to track if a wave is in progress
 
     private void Start()
     {
