@@ -166,7 +166,5 @@ public class AIBrainMelee : MonoBehaviour
     {
         agent.Stop();
         this.gameObject.SetActive(false);
-        //EnemySpawner.instance.Index--;
-        Health = defaultHealth;
     }
 }

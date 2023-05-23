@@ -202,6 +202,5 @@ public class AIBrainProjectile : MonoBehaviour
     {
         agent.Stop();
         this.gameObject.SetActive(false);
-        Health = defaultHealth;
     }
 }
