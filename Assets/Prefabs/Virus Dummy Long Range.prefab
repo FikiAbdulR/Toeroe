@@ -109,8 +109,8 @@ GameObject:
   - component: {fileID: 7887767138682755291}
   - component: {fileID: 7887767138682755290}
   - component: {fileID: 7887767138682755289}
-  - component: {fileID: 7887767138682755288}
   - component: {fileID: 7887767138682755295}
+  - component: {fileID: 5593358431155762482}
   - component: {fileID: 7887767138682755294}
   m_Layer: 0
   m_Name: Virus Dummy Long Range
@@ -118,7 +118,7 @@ GameObject:
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7887767138682755291
 Transform:
   m_ObjectHideFlags: 0
@@ -187,20 +187,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7887767138682755288
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7887767138682755292}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 1
-  m_Height: 2.5
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.25, z: 0}
 --- !u!195 &7887767138682755295
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -223,6 +209,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &5593358431155762482
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7887767138682755292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.75, y: 2.5, z: 1.75}
+  m_Center: {x: 0, y: 0.25, z: 0}
 --- !u!114 &7887767138682755294
 MonoBehaviour:
   m_ObjectHideFlags: 0

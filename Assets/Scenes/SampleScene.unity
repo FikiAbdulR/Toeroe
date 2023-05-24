@@ -6059,7 +6059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &820452913
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12584,7 +12584,8 @@ MonoBehaviour:
   spawnInterval: 1
   objectsPerWave: 5
   totalWaves: 4
-  waveDelay: 1
+  waveDelay: 5
+  RoundPanel: {fileID: 820452912}
 --- !u!1 &1686218085
 GameObject:
   m_ObjectHideFlags: 0

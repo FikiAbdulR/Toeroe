@@ -15,9 +15,12 @@ public class SpawnerTest : MonoBehaviour
     private int activeObjects = 0; // Number of currently active objects
     private bool isWaveInProgress = false; // Flag to track if a wave is in progress
 
+    [SerializeField] private GameObject RoundPanel;
+
     private void Start()
     {
         StartNewWave();
+        RoundPanel.SetActive(false);
     }
 
     private void Update()
@@ -38,6 +41,7 @@ public class SpawnerTest : MonoBehaviour
             else
             {
                 // Start a new wave after a delay
+                RoundPanel.SetActive(true);
                 Invoke("StartNewWave", waveDelay);
             }
         }
@@ -46,6 +50,8 @@ public class SpawnerTest : MonoBehaviour
     private void StartNewWave()
     {
         Debug.Log("Start Wave" + currentWave);
+        RoundPanel.SetActive(false);
+
         currentWave++;
         spawnedObjects = 0;
         activeObjects = 0;
