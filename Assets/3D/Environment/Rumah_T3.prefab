@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 7971874907099522425}
   m_Layer: 0
   m_Name: Atap_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5100486796336443798
 Transform:
@@ -112,10 +112,10 @@ GameObject:
   - component: {fileID: 2316972244622999059}
   m_Layer: 0
   m_Name: Sekat_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &697446722213693627
 Transform:
@@ -207,9 +207,9 @@ GameObject:
   - component: {fileID: 2898463083247413418}
   m_Layer: 0
   m_Name: Rumah_T3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2898463083247413418
@@ -245,10 +245,10 @@ GameObject:
   - component: {fileID: 7670542687348301943}
   m_Layer: 0
   m_Name: Lantai
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &7962148236216563121
 Transform:
@@ -343,10 +343,10 @@ GameObject:
   - component: {fileID: 3156347781043586747}
   m_Layer: 0
   m_Name: Bangunan_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2766358640609002808
 Transform:
@@ -438,9 +438,9 @@ GameObject:
   - component: {fileID: 991392670181955221}
   m_Layer: 0
   m_Name: Bangunan
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &991392670181955221
@@ -474,10 +474,10 @@ GameObject:
   - component: {fileID: 2356660758109182923}
   m_Layer: 0
   m_Name: Tembok_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &184390954152728138
 Transform:
@@ -569,9 +569,9 @@ GameObject:
   - component: {fileID: 3120690503363083051}
   m_Layer: 0
   m_Name: Sekat
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3120690503363083051
@@ -605,10 +605,10 @@ GameObject:
   - component: {fileID: 223519145495202730}
   m_Layer: 0
   m_Name: Tembok_2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5916930313667967565
 Transform:
@@ -700,9 +700,9 @@ GameObject:
   - component: {fileID: 3409543566775955582}
   m_Layer: 0
   m_Name: Tembok
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3409543566775955582
@@ -733,9 +733,9 @@ GameObject:
   - component: {fileID: 1875096654654597806}
   m_Layer: 0
   m_Name: Atap
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1875096654654597806
@@ -769,10 +769,10 @@ GameObject:
   - component: {fileID: 58589026146815351}
   m_Layer: 0
   m_Name: Asbes
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &3648194182844056799
 Transform:
@@ -867,10 +867,10 @@ GameObject:
   - component: {fileID: 8158637866511368150}
   m_Layer: 0
   m_Name: Sekat_2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &7705099145928593666
 Transform:

@@ -210,10 +210,10 @@ GameObject:
   - component: {fileID: 3824101441123369114}
   m_Layer: 0
   m_Name: cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5015105239146158483
 Transform:
@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 5855261563083411567}
   m_Layer: 0
   m_Name: Rumah_Tipe1_T1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
