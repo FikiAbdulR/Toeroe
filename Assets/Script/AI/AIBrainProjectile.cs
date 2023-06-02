@@ -33,6 +33,8 @@ public class AIBrainProjectile : MonoBehaviour
     private List<GameObject> pooledObjects = new List<GameObject>();
     private int amountToPool = 5;
 
+    public Animator AiAnim;
+
     private void Awake()
     {
         defaultHealth = Health;
@@ -55,6 +57,10 @@ public class AIBrainProjectile : MonoBehaviour
             obj.SetActive(false);
             pooledObjects.Add(obj);
         }
+
+        AiAnim.GetComponent<Animator>();
+        AiAnim.SetBool("Dead", false);
+
     }
 
     void LateUpdate()
@@ -67,14 +73,16 @@ public class AIBrainProjectile : MonoBehaviour
         if (!playerInSightRange && !playerInAttackRange)
         {
             Patrol();
+            AiAnim.SetBool("Attack", false);
         }
         else if (playerInSightRange && !playerInAttackRange)
         {
-            Chase();
+            Chase(); AiAnim.SetBool("Attack", false);
         }
         else if (playerInAttackRange && playerInSightRange)
         {
             Attack();
+            AiAnim.SetBool("Attack", true);
         }
 
         if (Health == 0)
@@ -200,7 +208,9 @@ public class AIBrainProjectile : MonoBehaviour
 
     public void EnemyDeath()
     {
+        AiAnim.SetBool("Dead", true);
         agent.Stop();
-        this.gameObject.SetActive(false);
+        this.gameObject.GetComponent<BoxCollider>().enabled = false;
+        //this.gameObject.SetActive(false);
     }
 }

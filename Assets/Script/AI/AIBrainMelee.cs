@@ -26,6 +26,8 @@ public class AIBrainMelee : MonoBehaviour
     public float timeBetweenAttacks;
     bool alreadyAttacked;
 
+    public Animator AiAnim;
+
     private void Awake()
     {
         defaultHealth = Health;
@@ -42,6 +44,10 @@ public class AIBrainMelee : MonoBehaviour
 
         AttackBox.enabled = false;
         Health = defaultHealth;
+
+        AiAnim.GetComponent<Animator>();
+        AiAnim.SetBool("Dead", false);
+
     }
 
     void LateUpdate()
@@ -54,17 +60,20 @@ public class AIBrainMelee : MonoBehaviour
         if (!playerInSightRange && !playerInAttackRange)
         {
             Patrol();
+            AiAnim.SetBool("Attack", false);
         }
         else if (playerInSightRange && !playerInAttackRange)
         {
             Chase();
+            AiAnim.SetBool("Attack", false);
         }
         else if (playerInAttackRange && playerInSightRange)
         {
             Attack();
+            AiAnim.SetBool("Attack", true);
         }
 
-        if(Health == 0)
+        if (Health == 0)
         {
             EnemyDeath();
         }
@@ -164,7 +173,9 @@ public class AIBrainMelee : MonoBehaviour
 
     public void EnemyDeath()
     {
+        AiAnim.SetBool("Dead", true);
         agent.Stop();
-        this.gameObject.SetActive(false);
+        this.gameObject.GetComponent<BoxCollider>().enabled = false;
+        //this.gameObject.SetActive(false);
     }
 }
