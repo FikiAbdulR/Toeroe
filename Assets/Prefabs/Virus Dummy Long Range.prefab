@@ -251,6 +251,7 @@ MonoBehaviour:
   Projectile: {fileID: 1986634622092733233, guid: 1960388bb179c7c42a387e0b16fe34cc, type: 3}
   ProjectileSpeed: 6
   ProjectileVelocity: 4
+  AiAnim: {fileID: 0}
 --- !u!1 &7887767139115232076
 GameObject:
   m_ObjectHideFlags: 0
