@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Type2
   - Type3
+  - Type1
   layers:
   - Default
   - TransparentFX

@@ -23,6 +23,12 @@ public class PooledWeapon : MonoBehaviour
     public bool Reloading;
     private Image reloadProgressBar;
 
+
+    private List<GameObject> pooledObjects = new List<GameObject>();
+    private int amountToPool = 10;
+    [SerializeField] private GameObject bulletPrefab;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +42,13 @@ public class PooledWeapon : MonoBehaviour
 
         //reloadProgressBar = GameObject.Find("Cooldown Bar (Reloading)").GetComponent<Image>();
         //reloadProgressBar.fillAmount = 0;
+
+        for (int i = 0; i < amountToPool; i++)
+        {
+            GameObject obj = Instantiate(bulletPrefab);
+            obj.SetActive(false);
+            pooledObjects.Add(obj);
+        }
     }
 
     // Update is called once per frame
@@ -77,7 +90,7 @@ public class PooledWeapon : MonoBehaviour
                 if (Time.time - lastFired > 1 / FireRate)
                 {
                     lastFired = Time.time;
-                    GameObject bullet = ObjectPool.instance.GetPooledObject();
+                    GameObject bullet = GetPooledObject();
                     currentMag -= 1;
 
                     if (bullet != null)
@@ -147,5 +160,18 @@ public class PooledWeapon : MonoBehaviour
                 }
             }
         }
+    }
+
+    public GameObject GetPooledObject()
+    {
+        for (int i = 0; i < pooledObjects.Count; i++)
+        {
+            if (!pooledObjects[i].activeInHierarchy)
+            {
+                return pooledObjects[i];
+            }
+        }
+
+        return null;
     }
 }
