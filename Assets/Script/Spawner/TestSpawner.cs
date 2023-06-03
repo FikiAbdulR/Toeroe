@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EraseObject : MonoBehaviour
+public class TestSpawner : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,11 +14,5 @@ public class EraseObject : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void Delete()
-    {
-        this.transform.parent.gameObject.SetActive(false);
-        this.transform.GetComponent<Animator>().SetBool("Dead", false);
     }
 }

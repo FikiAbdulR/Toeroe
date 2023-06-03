@@ -339,6 +339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Campak
       objectReference: {fileID: 0}
+    - target: {fileID: 5669050079754331779, guid: 7a1755c507c94b444b56ff10e6b721df, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1755c507c94b444b56ff10e6b721df, type: 3}
 --- !u!95 &6801154019110816678 stripped

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class SpawnerTest : MonoBehaviour
 {
-    public GameObject objectPrefab; // Prefab of the object to spawn
+    ObjectPoolScript[] objectPools;
+    public GameObject[] positions;
+
     public float spawnInterval = 1f; // Interval between object spawns
     public int objectsPerWave = 10; // Number of objects to spawn per wave
     public int totalWaves = 3; // Total number of waves in the game
@@ -19,14 +21,27 @@ public class SpawnerTest : MonoBehaviour
 
     private void Start()
     {
+        objectPools = GetComponentsInChildren<ObjectPoolScript>();
         StartNewWave();
         RoundPanel.SetActive(false);
     }
 
     private void Update()
     {
-        GameObject[] totalEnemy = GameObject.FindGameObjectsWithTag("Enemy");
-        activeObjects = totalEnemy.Length;
+        //GameObject[] totalEnemy = GameObject.FindGameObjectsWithTag("Enemy");
+        //activeObjects = totalEnemy.Length;
+
+        string[] tags = { "Type1", "Type2", "Type3" };
+        List<GameObject> objectsWithTags = new List<GameObject>();
+
+        foreach (string tag in tags)
+        {
+            GameObject[] foundObjects = GameObject.FindGameObjectsWithTag(tag);
+            objectsWithTags.AddRange(foundObjects);
+        }
+
+        GameObject[] totalObjects = objectsWithTags.ToArray();
+        activeObjects = totalObjects.Length;
 
         // Check if all objects in the current wave are inactive
         if (isWaveInProgress && activeObjects == 0)
@@ -68,11 +83,23 @@ public class SpawnerTest : MonoBehaviour
         }
 
         // Spawn an object
-        GameObject newObject = Instantiate(objectPrefab, transform.position, Quaternion.identity);
-        newObject.SetActive(true);
+        //GameObject newObject = Instantiate(objectPrefab[randomPool], positions[randomPosition].transform.position, Quaternion.identity);
+        //newObject.SetActive(true);
 
-        spawnedObjects++;
-        activeObjects++;
+        int randomPool = Random.Range(0, objectPools.Length);
+        int randomPosition = Random.Range(0, positions.Length);
+        if(objectPools != null)
+        {
+            GameObject obj = objectPools[randomPool].GetPooledObject();
+
+            if (obj == null) return;
+
+            obj.transform.position = positions[randomPosition].transform.position;
+            obj.SetActive(true);
+
+            spawnedObjects++;
+            activeObjects++;
+        }
     }
 
     private void RestartGame()
