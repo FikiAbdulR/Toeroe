@@ -141,16 +141,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   Health: 10
-  speed: 0.5
-  walkRadius: 3.4
-  sightRange: 7.5
+  speed: 0.75
+  walkRadius: 5
+  sightRange: 15
   attackRange: 5
   playerInSightRange: 0
   playerInAttackRange: 0
   timer: 0
   randTime: 0
   BulletPoint: {fileID: 1235153687608850571}
-  timeBetweenAttacks: 4
+  timeBetweenAttacks: 3
   Projectile: {fileID: 1986634622092733233, guid: 1960388bb179c7c42a387e0b16fe34cc, type: 3}
   ProjectileSpeed: 6
   ProjectileVelocity: 4

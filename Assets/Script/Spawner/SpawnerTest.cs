@@ -28,9 +28,6 @@ public class SpawnerTest : MonoBehaviour
 
     private void Update()
     {
-        //GameObject[] totalEnemy = GameObject.FindGameObjectsWithTag("Enemy");
-        //activeObjects = totalEnemy.Length;
-
         string[] tags = { "Type1", "Type2", "Type3" };
         List<GameObject> objectsWithTags = new List<GameObject>();
 
@@ -82,10 +79,6 @@ public class SpawnerTest : MonoBehaviour
             return;
         }
 
-        // Spawn an object
-        //GameObject newObject = Instantiate(objectPrefab[randomPool], positions[randomPosition].transform.position, Quaternion.identity);
-        //newObject.SetActive(true);
-
         int randomPool = Random.Range(0, objectPools.Length);
         int randomPosition = Random.Range(0, positions.Length);
         if(objectPools != null)
@@ -95,6 +88,16 @@ public class SpawnerTest : MonoBehaviour
             if (obj == null) return;
 
             obj.transform.position = positions[randomPosition].transform.position;
+
+            if (obj.transform.GetComponent<AIBrainProjectile>() != null)
+            {
+                obj.transform.GetComponent<AIBrainProjectile>().resetStats();
+            }
+
+            if (obj.transform.GetComponent<AIBrainMelee>() != null)
+            {
+                obj.transform.GetComponent<AIBrainMelee>().resetStats();
+            }
             obj.SetActive(true);
 
             spawnedObjects++;

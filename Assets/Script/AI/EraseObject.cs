@@ -19,6 +19,5 @@ public class EraseObject : MonoBehaviour
     public void Delete()
     {
         this.transform.parent.gameObject.SetActive(false);
-        this.transform.GetComponent<Animator>().SetBool("Dead", false);
     }
 }

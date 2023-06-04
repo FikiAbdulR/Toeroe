@@ -298,9 +298,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   Health: 20
-  speed: 1.5
-  walkRadius: 3.4
-  sightRange: 10
+  speed: 2
+  walkRadius: 5
+  sightRange: 20
   attackRange: 2
   playerInSightRange: 0
   playerInAttackRange: 0

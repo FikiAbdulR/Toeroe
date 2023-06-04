@@ -89,10 +89,6 @@ public class AIBrainProjectile : MonoBehaviour
         {
             EnemyDeath();
         }
-        else
-        {
-            AiAnim.SetBool("Dead", false);
-        }
     }
     private void ResetAttack()
     {
@@ -215,5 +211,12 @@ public class AIBrainProjectile : MonoBehaviour
         AiAnim.SetBool("Dead", true);
         agent.Stop();
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
+    }
+
+    public void resetStats()
+    {
+        Health = defaultHealth;
+        AiAnim.SetBool("Dead", false);
+        this.gameObject.GetComponent<BoxCollider>().enabled = true;
     }
 }

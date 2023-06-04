@@ -176,6 +176,12 @@ public class AIBrainMelee : MonoBehaviour
         AiAnim.SetBool("Dead", true);
         agent.Stop();
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
-        //this.gameObject.SetActive(false);
+    }
+
+    public void resetStats()
+    {
+        Health = defaultHealth;
+        AiAnim.SetBool("Dead", false);
+        this.gameObject.GetComponent<BoxCollider>().enabled = true;
     }
 }

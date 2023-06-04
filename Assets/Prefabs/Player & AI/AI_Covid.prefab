@@ -239,10 +239,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   Health: 10
-  speed: 0.5
-  walkRadius: 3.4
-  sightRange: 7.5
-  attackRange: 5
+  speed: 1
+  walkRadius: 6
+  sightRange: 15
+  attackRange: 6
   playerInSightRange: 0
   playerInAttackRange: 0
   timer: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
   BulletPoint: {fileID: 7779334158577170458}
   timeBetweenAttacks: 4
   Projectile: {fileID: 1986634622092733233, guid: 1960388bb179c7c42a387e0b16fe34cc, type: 3}
-  ProjectileSpeed: 6
+  ProjectileSpeed: 6.5
   ProjectileVelocity: 4
   AiAnim: {fileID: 1545610208099145421}
 --- !u!1 &7779334158577170459

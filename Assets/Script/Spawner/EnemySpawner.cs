@@ -19,8 +19,6 @@ public class EnemySpawner : MonoBehaviour
 
     public bool canSpawn = true;
 
-    //public CanvasGroup RoundClear;
-
     private int activeObjects = 0; // Number of currently active objects
 
 
