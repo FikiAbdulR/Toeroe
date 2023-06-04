@@ -12,7 +12,8 @@ public class PooledWeapon : MonoBehaviour
     [SerializeField] public bool isFiring = false;
     public int Ammunition = 10; // jumlah peluru di magazine
     public static int Magazine; //peluru yang ada di magazine
-    private int MaxedAmmo; //total peluru yang ada (peluru yang ada di magazine x 5)
+    public int MaxedAmmo; //total peluru yang ada (peluru yang ada di magazine x 5)
+
     public int currentTotalAmmo; //total peluru ang ada saat itu
     public int currentMag; //total peluru saat ini
     private float lastFired;
@@ -21,8 +22,6 @@ public class PooledWeapon : MonoBehaviour
     public float ReloadCooldown = 2f;
     float defaultCoolDown;
     public bool Reloading;
-    private Image reloadProgressBar;
-
 
     private List<GameObject> pooledObjects = new List<GameObject>();
     private int amountToPool = 10;
