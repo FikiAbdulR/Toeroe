@@ -17,31 +17,37 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isPC)
+        if (GameplayManager.instance.isEnd == false)
         {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(mouseLook);
-
-            if(Physics.Raycast(ray, out hit))
+            if (!GameplayManager.instance.isPaused)
             {
-                rotationTarget = hit.point;
+                if (isPC)
+                {
+                    RaycastHit hit;
+                    Ray ray = Camera.main.ScreenPointToRay(mouseLook);
+
+                    if (Physics.Raycast(ray, out hit))
+                    {
+                        rotationTarget = hit.point;
+                    }
+
+                    movePlayerWithAim();
+                }
+                else
+                {
+                    movePlayer();
+                }
+
+                anim.SetFloat("MoveX", move.x);
+                anim.SetFloat("MoveY", move.y);
             }
-
-            movePlayerWithAim();
         }
-        else
-        {
-            movePlayer();
-        }
-
-        anim.SetFloat("MoveX", move.x);
-        anim.SetFloat("MoveY", move.y);
     }
 
     public void OnMove(InputAction.CallbackContext context)

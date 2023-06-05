@@ -81,11 +81,12 @@ MonoBehaviour:
   FireRate: 5
   isFiring: 0
   Ammunition: 50
+  MaxedAmmo: 0
   currentTotalAmmo: 0
   currentMag: 0
   ReloadCooldown: 2
   Reloading: 0
-  bulletPrefab: {fileID: 2385509829939400882, guid: b57c99bccda9a1548b4d9f028fe3b8cd, type: 3}
+  bulletPrefab: {fileID: 2385509829939400882, guid: dcc5b85538296804496e3479f2f21c37, type: 3}
 --- !u!1 &4224431072918981677
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,6 +355,7 @@ MonoBehaviour:
   FireRate: 5
   isFiring: 0
   Ammunition: 50
+  MaxedAmmo: 0
   currentTotalAmmo: 0
   currentMag: 0
   ReloadCooldown: 2
@@ -409,11 +411,12 @@ MonoBehaviour:
   FireRate: 5
   isFiring: 0
   Ammunition: 50
+  MaxedAmmo: 0
   currentTotalAmmo: 0
   currentMag: 0
   ReloadCooldown: 2
   Reloading: 0
-  bulletPrefab: {fileID: 2385509829939400882, guid: dcc5b85538296804496e3479f2f21c37, type: 3}
+  bulletPrefab: {fileID: 2385509829939400882, guid: b57c99bccda9a1548b4d9f028fe3b8cd, type: 3}
 --- !u!1 &7441284143399433670
 GameObject:
   m_ObjectHideFlags: 0

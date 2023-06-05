@@ -8,8 +8,7 @@ public class IconChange : MonoBehaviour
     public static IconChange instance;
 
     private Image bulletIcon;
-    [SerializeField] private Sprite[] Icons;
-
+    public Color[] colorIndicator;
 
     private void Awake()
     {
@@ -22,21 +21,11 @@ public class IconChange : MonoBehaviour
     void Start()
     {
         bulletIcon = gameObject.GetComponent<Image>();
+        bulletIcon.color = colorIndicator[0];
     }
 
     public void ChangeIcon(int Index)
     {
-        switch (Index)
-        {
-            case 0:
-                bulletIcon.sprite = Icons[Index];
-                break;
-            case 1:
-                bulletIcon.sprite = Icons[Index];
-                break;
-            case 2:
-                bulletIcon.sprite = Icons[Index];
-                break;
-        }
+        bulletIcon.color = colorIndicator[Index];
     }
 }

@@ -47,13 +47,15 @@ public class SpawnerTest : MonoBehaviour
             // Check if all waves have been completed
             if (currentWave >= totalWaves)
             {
-                // Restart the game
-                RestartGame();
+                // Stage Cleared
+                GameplayManager.instance.Winning();
+                Debug.Log("Winning");
             }
             else
             {
                 // Start a new wave after a delay
                 RoundPanel.SetActive(true);
+                GameplayManager.instance.ClearRound(currentWave, true);
                 Invoke("StartNewWave", waveDelay);
             }
         }
@@ -62,7 +64,7 @@ public class SpawnerTest : MonoBehaviour
     private void StartNewWave()
     {
         Debug.Log("Start Wave" + currentWave);
-        RoundPanel.SetActive(false);
+        GameplayManager.instance.ClearRound(currentWave, false);
 
         currentWave++;
         spawnedObjects = 0;
