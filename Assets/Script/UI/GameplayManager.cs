@@ -31,6 +31,9 @@ public class GameplayManager : MonoBehaviour
         RoundClear.SetActive(false);
         StageClear.SetActive(false);
         GameOver.SetActive(false);
+
+        isEnd = false;
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame

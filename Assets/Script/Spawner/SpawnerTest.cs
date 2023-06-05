@@ -22,8 +22,9 @@ public class SpawnerTest : MonoBehaviour
     private void Start()
     {
         objectPools = GetComponentsInChildren<ObjectPoolScript>();
-        StartNewWave();
         RoundPanel.SetActive(false);
+
+        RestartGame();
     }
 
     private void Update()
