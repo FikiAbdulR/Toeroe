@@ -43,50 +43,52 @@ public class ShootingManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameplayManager.instance.isEnd == false)
+        if(GameplayManager.instance.isStart == true)
         {
-            if (!GameplayManager.instance.isPaused)
+            if (GameplayManager.instance.isEnd == false)
             {
-                ammoDisplay.text = EquipedWeapon.currentMag.ToString() + "/" + EquipedWeapon.currentTotalAmmo.ToString();
-
-                isShoot = Inpt_Managers.Player.Shoot.ReadValue<float>() > 0;
-                isReload = Int_Manager.Interact.Reload.ReadValue<float>() > 0;
-
-                weapon1 = Int_Manager.Interact.Weapon1.ReadValue<float>() > 0;
-                weapon2 = Int_Manager.Interact.Weapon2.ReadValue<float>() > 0;
-                weapon3 = Int_Manager.Interact.Weapon3.ReadValue<float>() > 0;
-
-                if (isReload)
+                if (!GameplayManager.instance.isPaused)
                 {
-                    EquipedWeapon.Reloading = true;
-                }
+                    ammoDisplay.text = EquipedWeapon.currentMag.ToString() + "/" + EquipedWeapon.currentTotalAmmo.ToString();
 
-                if (isShoot)
-                {
-                    EquipedWeapon.Fire();
-                }
-                else
-                {
-                    EquipedWeapon.Stop();
-                }
+                    isShoot = Inpt_Managers.Player.Shoot.ReadValue<float>() > 0;
+                    isReload = Int_Manager.Interact.Reload.ReadValue<float>() > 0;
 
-                if (weapon1)
-                {
-                    Switch(0);
-                }
+                    weapon1 = Int_Manager.Interact.Weapon1.ReadValue<float>() > 0;
+                    weapon2 = Int_Manager.Interact.Weapon2.ReadValue<float>() > 0;
+                    weapon3 = Int_Manager.Interact.Weapon3.ReadValue<float>() > 0;
 
-                if (weapon2)
-                {
-                    Switch(1);
-                }
+                    if (isReload)
+                    {
+                        EquipedWeapon.Reloading = true;
+                    }
 
-                if (weapon3)
-                {
-                    Switch(2);
+                    if (isShoot)
+                    {
+                        EquipedWeapon.Fire();
+                    }
+                    else
+                    {
+                        EquipedWeapon.Stop();
+                    }
+
+                    if (weapon1)
+                    {
+                        Switch(0);
+                    }
+
+                    if (weapon2)
+                    {
+                        Switch(1);
+                    }
+
+                    if (weapon3)
+                    {
+                        Switch(2);
+                    }
                 }
             }
         }
-
     }
 
     private void Switch(int Index)

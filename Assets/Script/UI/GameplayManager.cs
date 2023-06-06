@@ -10,11 +10,13 @@ public class GameplayManager : MonoBehaviour
     public static GameplayManager instance;
     private InteractManager Int_Manager;
 
+    public GameObject briefPanel;
     public GameObject PausePanel;
     public GameObject RoundClear;
     public GameObject StageClear;
     public GameObject GameOver;
 
+    public bool isStart = false;
     public bool isPaused = true;
     public bool isEnd = false;
 
@@ -27,38 +29,54 @@ public class GameplayManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        briefPanel.SetActive(true);
         PausePanel.SetActive(false);
         RoundClear.SetActive(false);
         StageClear.SetActive(false);
         GameOver.SetActive(false);
 
+        isStart = false;
         isEnd = false;
-        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isEnd == false)
+        if(isStart == true)
         {
-            if (Int_Manager.Interact.Paused.triggered)
-            {
-                isPaused = !isPaused;
+            Time.timeScale = 1;
 
-                if (!isPaused)
+            if (isEnd == false)
+            {
+                if (Int_Manager.Interact.Paused.triggered)
                 {
-                    //isPaused = true;
-                    PausePanel.SetActive(false);
-                    Time.timeScale = 1f;
-                }
-                else
-                {
-                    //isPaused = false;
-                    PausePanel.SetActive(true);
-                    Time.timeScale = 0f;
+                    isPaused = !isPaused;
+
+                    if (!isPaused)
+                    {
+                        //isPaused = true;
+                        PausePanel.SetActive(false);
+                        Time.timeScale = 1f;
+                    }
+                    else
+                    {
+                        //isPaused = false;
+                        PausePanel.SetActive(true);
+                        Time.timeScale = 0f;
+                    }
                 }
             }
         }
+        else
+        {
+            Time.timeScale = 0;
+        }
+    }
+
+    public void StartGame()
+    {
+        briefPanel.SetActive(false);
+        isStart = true;
     }
 
     public void ClearRound(int Rcount, bool Alpha)

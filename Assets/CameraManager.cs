@@ -13,7 +13,7 @@ public class CameraManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cameraPos[0].Priority = 2;
+        cameraPos[0].Priority = 5;
     }
 
     // Update is called once per frame

@@ -32,32 +32,36 @@ public class SpawnerTest : MonoBehaviour
         string[] tags = { "Type1", "Type2", "Type3" };
         List<GameObject> objectsWithTags = new List<GameObject>();
 
-        foreach (string tag in tags)
+        if (!GameplayManager.instance.isPaused)
         {
-            GameObject[] foundObjects = GameObject.FindGameObjectsWithTag(tag);
-            objectsWithTags.AddRange(foundObjects);
-        }
-
-        GameObject[] totalObjects = objectsWithTags.ToArray();
-        activeObjects = totalObjects.Length;
-
-        // Check if all objects in the current wave are inactive
-        if (isWaveInProgress && activeObjects == 0)
-        {
-            isWaveInProgress = false;
-            // Check if all waves have been completed
-            if (currentWave >= totalWaves)
+            foreach (string tag in tags)
             {
-                // Stage Cleared
-                GameplayManager.instance.Winning();
-                Debug.Log("Winning");
+                GameObject[] foundObjects = GameObject.FindGameObjectsWithTag(tag);
+                objectsWithTags.AddRange(foundObjects);
             }
-            else
+
+            GameObject[] totalObjects = objectsWithTags.ToArray();
+            activeObjects = totalObjects.Length;
+
+
+            // Check if all objects in the current wave are inactive
+            if (isWaveInProgress && activeObjects == 0)
             {
-                // Start a new wave after a delay
-                RoundPanel.SetActive(true);
-                GameplayManager.instance.ClearRound(currentWave, true);
-                Invoke("StartNewWave", waveDelay);
+                isWaveInProgress = false;
+                // Check if all waves have been completed
+                if (currentWave >= totalWaves)
+                {
+                    // Stage Cleared
+                    GameplayManager.instance.Winning();
+                    Debug.Log("Winning");
+                }
+                else
+                {
+                    // Start a new wave after a delay
+                    RoundPanel.SetActive(true);
+                    GameplayManager.instance.ClearRound(currentWave, true);
+                    Invoke("StartNewWave", waveDelay);
+                }
             }
         }
     }
