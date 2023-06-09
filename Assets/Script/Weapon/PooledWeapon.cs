@@ -12,7 +12,8 @@ public class PooledWeapon : MonoBehaviour
     [SerializeField] public bool isFiring = false;
     public int Ammunition = 10; // jumlah peluru di magazine
     public static int Magazine; //peluru yang ada di magazine
-    private int MaxedAmmo; //total peluru yang ada (peluru yang ada di magazine x 5)
+    public int MaxedAmmo; //total peluru yang ada (peluru yang ada di magazine x 5)
+
     public int currentTotalAmmo; //total peluru ang ada saat itu
     public int currentMag; //total peluru saat ini
     private float lastFired;
@@ -21,7 +22,11 @@ public class PooledWeapon : MonoBehaviour
     public float ReloadCooldown = 2f;
     float defaultCoolDown;
     public bool Reloading;
-    private Image reloadProgressBar;
+
+    private List<GameObject> pooledObjects = new List<GameObject>();
+    private int amountToPool = 10;
+    [SerializeField] private GameObject bulletPrefab;
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +41,13 @@ public class PooledWeapon : MonoBehaviour
 
         //reloadProgressBar = GameObject.Find("Cooldown Bar (Reloading)").GetComponent<Image>();
         //reloadProgressBar.fillAmount = 0;
+
+        for (int i = 0; i < amountToPool; i++)
+        {
+            GameObject obj = Instantiate(bulletPrefab);
+            obj.SetActive(false);
+            pooledObjects.Add(obj);
+        }
     }
 
     // Update is called once per frame
@@ -77,7 +89,7 @@ public class PooledWeapon : MonoBehaviour
                 if (Time.time - lastFired > 1 / FireRate)
                 {
                     lastFired = Time.time;
-                    GameObject bullet = ObjectPool.instance.GetPooledObject();
+                    GameObject bullet = GetPooledObject();
                     currentMag -= 1;
 
                     if (bullet != null)
@@ -147,5 +159,18 @@ public class PooledWeapon : MonoBehaviour
                 }
             }
         }
+    }
+
+    public GameObject GetPooledObject()
+    {
+        for (int i = 0; i < pooledObjects.Count; i++)
+        {
+            if (!pooledObjects[i].activeInHierarchy)
+            {
+                return pooledObjects[i];
+            }
+        }
+
+        return null;
     }
 }

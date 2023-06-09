@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class SpawnerTest : MonoBehaviour
 {
-    public GameObject objectPrefab; // Prefab of the object to spawn
+    ObjectPoolScript[] objectPools;
+    public GameObject[] positions;
+
     public float spawnInterval = 1f; // Interval between object spawns
     public int objectsPerWave = 10; // Number of objects to spawn per wave
     public int totalWaves = 3; // Total number of waves in the game
@@ -19,30 +21,47 @@ public class SpawnerTest : MonoBehaviour
 
     private void Start()
     {
-        StartNewWave();
+        objectPools = GetComponentsInChildren<ObjectPoolScript>();
         RoundPanel.SetActive(false);
+
+        RestartGame();
     }
 
     private void Update()
     {
-        GameObject[] totalEnemy = GameObject.FindGameObjectsWithTag("Enemy");
-        activeObjects = totalEnemy.Length;
+        string[] tags = { "Type1", "Type2", "Type3" };
+        List<GameObject> objectsWithTags = new List<GameObject>();
 
-        // Check if all objects in the current wave are inactive
-        if (isWaveInProgress && activeObjects == 0)
+        if (!GameplayManager.instance.isPaused)
         {
-            isWaveInProgress = false;
-            // Check if all waves have been completed
-            if (currentWave >= totalWaves)
+            foreach (string tag in tags)
             {
-                // Restart the game
-                RestartGame();
+                GameObject[] foundObjects = GameObject.FindGameObjectsWithTag(tag);
+                objectsWithTags.AddRange(foundObjects);
             }
-            else
+
+            GameObject[] totalObjects = objectsWithTags.ToArray();
+            activeObjects = totalObjects.Length;
+
+
+            // Check if all objects in the current wave are inactive
+            if (isWaveInProgress && activeObjects == 0)
             {
-                // Start a new wave after a delay
-                RoundPanel.SetActive(true);
-                Invoke("StartNewWave", waveDelay);
+                isWaveInProgress = false;
+                // Check if all waves have been completed
+                if (currentWave >= totalWaves)
+                {
+                    // Stage Cleared
+                    GameplayManager.instance.Winning();
+                    Debug.Log("Winning");
+                }
+                else
+                {
+                    // Start a new wave after a delay
+                    RoundPanel.SetActive(true);
+                    GameplayManager.instance.ClearRound(currentWave, true);
+                    Invoke("StartNewWave", waveDelay);
+                }
             }
         }
     }
@@ -50,7 +69,7 @@ public class SpawnerTest : MonoBehaviour
     private void StartNewWave()
     {
         Debug.Log("Start Wave" + currentWave);
-        RoundPanel.SetActive(false);
+        GameplayManager.instance.ClearRound(currentWave, false);
 
         currentWave++;
         spawnedObjects = 0;
@@ -67,12 +86,30 @@ public class SpawnerTest : MonoBehaviour
             return;
         }
 
-        // Spawn an object
-        GameObject newObject = Instantiate(objectPrefab, transform.position, Quaternion.identity);
-        newObject.SetActive(true);
+        int randomPool = Random.Range(0, objectPools.Length);
+        int randomPosition = Random.Range(0, positions.Length);
+        if(objectPools != null)
+        {
+            GameObject obj = objectPools[randomPool].GetPooledObject();
 
-        spawnedObjects++;
-        activeObjects++;
+            if (obj == null) return;
+
+            obj.transform.position = positions[randomPosition].transform.position;
+
+            if (obj.transform.GetComponent<AIBrainProjectile>() != null)
+            {
+                obj.transform.GetComponent<AIBrainProjectile>().resetStats();
+            }
+
+            if (obj.transform.GetComponent<AIBrainMelee>() != null)
+            {
+                obj.transform.GetComponent<AIBrainMelee>().resetStats();
+            }
+            obj.SetActive(true);
+
+            spawnedObjects++;
+            activeObjects++;
+        }
     }
 
     private void RestartGame()

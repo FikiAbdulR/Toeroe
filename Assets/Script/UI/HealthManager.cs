@@ -8,18 +8,20 @@ public class HealthManager : MonoBehaviour
 {
     public static HealthManager instance;
 
-    public int HealthPoint = 100;
+    public int DefaultHealth = 100;
+    public int HealthPoint;
     public Slider HealthBar;
 
     private void Awake()
     {
         instance = this;
+        HealthPoint = DefaultHealth;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        HealthBar.maxValue = HealthPoint;
+        HealthBar.maxValue = DefaultHealth;
         HealthBar.value = HealthPoint;
     }
 
@@ -30,10 +32,7 @@ public class HealthManager : MonoBehaviour
 
         if(HealthPoint <= 0)
         {
-            Time.timeScale = 0;
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-
+            GameplayManager.instance.Lose();
             Debug.Log("Game Over");
         }
     }
@@ -42,5 +41,16 @@ public class HealthManager : MonoBehaviour
     {
         HealthPoint -= DamageInput;
         Debug.Log("Damaged");
+    }
+
+    public void RestoreHealth(int HealthInput)
+    {
+        HealthPoint += HealthInput;
+        Debug.Log("HealthRestored");
+
+        if (HealthPoint > DefaultHealth)
+        {
+            HealthPoint = DefaultHealth;
+        }
     }
 }

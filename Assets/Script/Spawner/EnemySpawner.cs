@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -19,23 +18,35 @@ public class EnemySpawner : MonoBehaviour
 
     public bool canSpawn = true;
 
-    public CanvasGroup RoundClear;
+    private int activeObjects = 0; // Number of currently active objects
+
 
     // Use this for initialization
     void Start()
     {
         Index = SpawnLimit;
         objectPools = GetComponentsInChildren<ObjectPoolScript>();
-        RoundClear.alpha = 0;
+        //RoundClear.alpha = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         Spawning();
-        GameObject[] totalEnemy = GameObject.FindGameObjectsWithTag("Enemy");
 
-        if (totalEnemy.Length == 0 && !canSpawn)
+        string[] tags = { "Type1", "Type2", "Type3" };
+        List<GameObject> objectsWithTags = new List<GameObject>();
+
+        foreach (string tag in tags)
+        {
+            GameObject[] foundObjects = GameObject.FindGameObjectsWithTag(tag);
+            objectsWithTags.AddRange(foundObjects);
+        }
+
+        GameObject[] totalObjects = objectsWithTags.ToArray();
+        activeObjects = totalObjects.Length;
+
+        if (activeObjects == 0 && !canSpawn)
         {
             WaveComplete();
             Debug.Log("Wave Complete");
@@ -45,7 +56,7 @@ public class EnemySpawner : MonoBehaviour
     void WaveComplete()
     {
         OnDelayWave();
-        RoundClear.alpha = 1;
+        //RoundClear.alpha = 1;
     }
 
     void OnDelayWave()
@@ -60,7 +71,7 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnNextWave()
     {
-        RoundClear.alpha = 0;
+        //RoundClear.alpha = 0;
         //currentWaveNumber++;
         canSpawn = true;
         Index = SpawnLimit;

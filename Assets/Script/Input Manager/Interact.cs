@@ -71,6 +71,15 @@ public partial class @InteractManager : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Paused"",
+                    ""type"": ""Button"",
+                    ""id"": ""3c5a62cd-70d8-4b76-ad3b-38b704a4a660"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -128,6 +137,17 @@ public partial class @InteractManager : IInputActionCollection2, IDisposable
                     ""action"": ""Weapon3"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a5eca8a1-94dc-430a-99b7-bc167c3b4a00"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Paused"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -141,6 +161,7 @@ public partial class @InteractManager : IInputActionCollection2, IDisposable
         m_Interact_Weapon1 = m_Interact.FindAction("Weapon1", throwIfNotFound: true);
         m_Interact_Weapon2 = m_Interact.FindAction("Weapon2", throwIfNotFound: true);
         m_Interact_Weapon3 = m_Interact.FindAction("Weapon3", throwIfNotFound: true);
+        m_Interact_Paused = m_Interact.FindAction("Paused", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -205,6 +226,7 @@ public partial class @InteractManager : IInputActionCollection2, IDisposable
     private readonly InputAction m_Interact_Weapon1;
     private readonly InputAction m_Interact_Weapon2;
     private readonly InputAction m_Interact_Weapon3;
+    private readonly InputAction m_Interact_Paused;
     public struct InteractActions
     {
         private @InteractManager m_Wrapper;
@@ -214,6 +236,7 @@ public partial class @InteractManager : IInputActionCollection2, IDisposable
         public InputAction @Weapon1 => m_Wrapper.m_Interact_Weapon1;
         public InputAction @Weapon2 => m_Wrapper.m_Interact_Weapon2;
         public InputAction @Weapon3 => m_Wrapper.m_Interact_Weapon3;
+        public InputAction @Paused => m_Wrapper.m_Interact_Paused;
         public InputActionMap Get() { return m_Wrapper.m_Interact; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -238,6 +261,9 @@ public partial class @InteractManager : IInputActionCollection2, IDisposable
                 @Weapon3.started -= m_Wrapper.m_InteractActionsCallbackInterface.OnWeapon3;
                 @Weapon3.performed -= m_Wrapper.m_InteractActionsCallbackInterface.OnWeapon3;
                 @Weapon3.canceled -= m_Wrapper.m_InteractActionsCallbackInterface.OnWeapon3;
+                @Paused.started -= m_Wrapper.m_InteractActionsCallbackInterface.OnPaused;
+                @Paused.performed -= m_Wrapper.m_InteractActionsCallbackInterface.OnPaused;
+                @Paused.canceled -= m_Wrapper.m_InteractActionsCallbackInterface.OnPaused;
             }
             m_Wrapper.m_InteractActionsCallbackInterface = instance;
             if (instance != null)
@@ -257,6 +283,9 @@ public partial class @InteractManager : IInputActionCollection2, IDisposable
                 @Weapon3.started += instance.OnWeapon3;
                 @Weapon3.performed += instance.OnWeapon3;
                 @Weapon3.canceled += instance.OnWeapon3;
+                @Paused.started += instance.OnPaused;
+                @Paused.performed += instance.OnPaused;
+                @Paused.canceled += instance.OnPaused;
             }
         }
     }
@@ -268,5 +297,6 @@ public partial class @InteractManager : IInputActionCollection2, IDisposable
         void OnWeapon1(InputAction.CallbackContext context);
         void OnWeapon2(InputAction.CallbackContext context);
         void OnWeapon3(InputAction.CallbackContext context);
+        void OnPaused(InputAction.CallbackContext context);
     }
 }

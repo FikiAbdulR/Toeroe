@@ -17,31 +17,40 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isPC)
+        if (GameplayManager.instance.isStart == true)
         {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(mouseLook);
-
-            if(Physics.Raycast(ray, out hit))
+            if (GameplayManager.instance.isEnd == false)
             {
-                rotationTarget = hit.point;
+                if (!GameplayManager.instance.isPaused)
+                {
+                    if (isPC)
+                    {
+                        RaycastHit hit;
+                        Ray ray = Camera.main.ScreenPointToRay(mouseLook);
+
+                        if (Physics.Raycast(ray, out hit))
+                        {
+                            rotationTarget = hit.point;
+                        }
+
+                        movePlayerWithAim();
+                    }
+                    else
+                    {
+                        movePlayer();
+                    }
+
+                    anim.SetFloat("MoveX", move.x);
+                    anim.SetFloat("MoveY", move.y);
+                }
             }
-
-            movePlayerWithAim();
         }
-        else
-        {
-            movePlayer();
-        }
-
-        anim.SetFloat("MoveX", move.x);
-        anim.SetFloat("MoveY", move.y);
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -63,7 +72,6 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 0.15f);
         }
 
-        //transform.Translate(movement * speed * Time.deltaTime, Space.World);
         controller.Move(movement * speed * Time.deltaTime);
     }
 
@@ -84,8 +92,6 @@ public class PlayerController : MonoBehaviour
         }
 
         Vector3 movement = new Vector3(move.x, 0f, move.y);
-
-        //transform.Translate(movement * speed * Time.deltaTime, Space.World);
         controller.Move(movement * speed * Time.deltaTime);
     }
 }

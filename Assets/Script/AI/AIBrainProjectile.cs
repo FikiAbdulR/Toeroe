@@ -69,26 +69,36 @@ public class AIBrainProjectile : MonoBehaviour
 
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, Player);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, Player);
+       
+        if(!GameplayManager.instance.isPaused)
+        {
+            agent.Resume();
 
-        if (!playerInSightRange && !playerInAttackRange)
-        {
-            Patrol();
-            AiAnim.SetBool("Attack", false);
+            if (!playerInSightRange && !playerInAttackRange)
+            {
+                Patrol();
+                AiAnim.SetBool("Attack", false);
+            }
+            else if (playerInSightRange && !playerInAttackRange)
+            {
+                Chase(); AiAnim.SetBool("Attack", false);
+            }
+            else if (playerInAttackRange && playerInSightRange)
+            {
+                Attack();
+                AiAnim.SetBool("Attack", true);
+            }
+
+            if (Health == 0)
+            {
+                EnemyDeath();
+            }
         }
-        else if (playerInSightRange && !playerInAttackRange)
+        else
         {
-            Chase(); AiAnim.SetBool("Attack", false);
-        }
-        else if (playerInAttackRange && playerInSightRange)
-        {
-            Attack();
-            AiAnim.SetBool("Attack", true);
+            agent.Stop();
         }
 
-        if (Health == 0)
-        {
-            EnemyDeath();
-        }
     }
     private void ResetAttack()
     {
@@ -211,6 +221,12 @@ public class AIBrainProjectile : MonoBehaviour
         AiAnim.SetBool("Dead", true);
         agent.Stop();
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
-        //this.gameObject.SetActive(false);
+    }
+
+    public void resetStats()
+    {
+        Health = defaultHealth;
+        AiAnim.SetBool("Dead", false);
+        this.gameObject.GetComponent<BoxCollider>().enabled = true;
     }
 }

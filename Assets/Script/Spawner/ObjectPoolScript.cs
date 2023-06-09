@@ -6,7 +6,7 @@ public class ObjectPoolScript : MonoBehaviour
 {
     public GameObject pooledObject;
     public int pooledAmount = 20;
-    public bool willGrow = true;
+    //public bool willGrow = true;
 
     public List<GameObject> pooledObjects;
 
@@ -37,14 +37,6 @@ public class ObjectPoolScript : MonoBehaviour
                 return pooledObjects[i];
             }
         }
-
-        if (willGrow)
-        {
-            GameObject obj = (GameObject)Instantiate(pooledObject);
-            pooledObjects.Add(obj);
-            return obj;
-        }
-
         return null;
     }
 }

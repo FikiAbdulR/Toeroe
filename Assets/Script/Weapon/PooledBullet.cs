@@ -5,6 +5,7 @@ using UnityEngine;
 public class PooledBullet : MonoBehaviour
 {
     public float speed = 5f;
+    public string bulletTag;
     [SerializeField] private Rigidbody rb;
 
     public int bulletDamage = 10;
@@ -29,7 +30,7 @@ public class PooledBullet : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-        else if (hit.gameObject.CompareTag("Enemy"))
+        else if (hit.gameObject.CompareTag(bulletTag))
         {
             AIBrainMelee melee = hit.gameObject.GetComponent<AIBrainMelee>();
             AIBrainProjectile projectile = hit.gameObject.GetComponent<AIBrainProjectile>();
@@ -45,6 +46,10 @@ public class PooledBullet : MonoBehaviour
             }
 
             rb.velocity = Vector3.zero;
+            gameObject.SetActive(false);
+        }
+        else if (!hit.gameObject.CompareTag(bulletTag))
+        {
             gameObject.SetActive(false);
         }
     }
