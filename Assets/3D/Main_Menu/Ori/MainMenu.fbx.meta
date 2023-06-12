@@ -5,6 +5,26 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_Meja.png
+    second: {fileID: 2100000, guid: 317f9e16a066f88408379f46cca63040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_Papan.png
+    second: {fileID: 2100000, guid: fc52b1d07c123c440b25d1b509c5eaef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_Quit.png
+    second: {fileID: 2100000, guid: 0b860f959038bd74e8c5e101d0d37d54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture_Ruangan.png
+    second: {fileID: 2100000, guid: 47ff6db0285875b44a1ef1d6381db1da, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: texture_Meja

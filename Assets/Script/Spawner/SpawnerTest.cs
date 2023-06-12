@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class SpawnerTest : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class SpawnerTest : MonoBehaviour
     private int activeObjects = 0; // Number of currently active objects
     private bool isWaveInProgress = false; // Flag to track if a wave is in progress
 
+
+    [SerializeField] private TMP_Text roundCount;
     [SerializeField] private GameObject RoundPanel;
 
     private void Start()
@@ -31,6 +34,8 @@ public class SpawnerTest : MonoBehaviour
     {
         string[] tags = { "Type1", "Type2", "Type3" };
         List<GameObject> objectsWithTags = new List<GameObject>();
+        roundCount.text = "Wave " + currentWave.ToString();
+
 
         if (!GameplayManager.instance.isPaused)
         {
@@ -69,6 +74,7 @@ public class SpawnerTest : MonoBehaviour
     private void StartNewWave()
     {
         Debug.Log("Start Wave" + currentWave);
+
         GameplayManager.instance.ClearRound(currentWave, false);
 
         currentWave++;
