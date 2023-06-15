@@ -20,6 +20,8 @@ public class GameplayManager : MonoBehaviour
     public bool isPaused = true;
     public bool isEnd = false;
 
+    public string levelUnlocked;
+
     private void Awake()
     {
         instance = this;
@@ -97,6 +99,11 @@ public class GameplayManager : MonoBehaviour
         StageClear.SetActive(true);
         isEnd = true;
         Time.timeScale = 0f;
+
+        if(levelUnlocked != null)
+        {
+            UnlockLevel(levelUnlocked);
+        }
     }
 
     public void Lose()
@@ -114,5 +121,10 @@ public class GameplayManager : MonoBehaviour
     private void OnDisable()
     {
         Int_Manager.Disable();
+    }
+
+    public void UnlockLevel(string key)
+    {
+        PlayerPrefs.SetInt(key, 1);
     }
 }

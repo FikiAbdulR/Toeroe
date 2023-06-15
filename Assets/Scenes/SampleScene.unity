@@ -1277,6 +1277,7 @@ MonoBehaviour:
   isStart: 0
   isPaused: 0
   isEnd: 0
+  levelUnlocked: Level2
 --- !u!114 &147658014
 MonoBehaviour:
   m_ObjectHideFlags: 0
