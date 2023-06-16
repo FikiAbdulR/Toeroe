@@ -25830,6 +25830,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1450500425}
+    - target: {fileID: 2141111571744642632, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_text
+      value: Sebuah wabah menyerang desa dikarenakan virus FLU BURUNG bermutasi,
+        banyak warga yang menjadi korban dikarenakan tingkat imunisasi yang rendah,
+        saat ini tim khusus telah dikerahkan ke lokasi untuk menangani wabah di area
+        tersebut
+      objectReference: {fileID: 0}
     - target: {fileID: 2141111571783513126, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -25926,6 +25933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6910513221466749026, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: a43321031af926847ad9c6beaddd0963, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
 --- !u!1 &1034466990 stripped
