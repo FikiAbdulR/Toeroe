@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 2876443665245016835}
   m_Layer: 0
   m_Name: Tiang
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 1105844780518023670}
   m_Layer: 0
   m_Name: Tembok_3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 3918102870601609222}
   m_Layer: 0
   m_Name: Tembok_4
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 6209969485042817108}
   m_Layer: 0
   m_Name: Tiang_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 2782543561308904231}
   m_Layer: 0
   m_Name: Tembok_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 9074759597908709389}
   m_Layer: 0
   m_Name: Tembok_2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8

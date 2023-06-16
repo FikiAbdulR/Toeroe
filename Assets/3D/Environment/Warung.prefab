@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4834235265273122612}
   m_Layer: 0
   m_Name: Bangku_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 8462808481229400952}
   m_Layer: 0
   m_Name: Etalase2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 8260265004734901320}
   m_Layer: 0
   m_Name: Gantungan_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 6469219352740682033}
   m_Layer: 0
   m_Name: Gantungan2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 6709286707544471926}
   m_Layer: 0
   m_Name: KakiBangku
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 4214657910391386432}
   m_Layer: 0
   m_Name: Etalase_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 9223283244209894334}
   m_Layer: 0
   m_Name: Bangunan
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -1126,7 +1126,7 @@ GameObject:
   - component: {fileID: 638049671114782062}
   m_Layer: 0
   m_Name: cube_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -795,9 +795,10 @@ GameObject:
   - component: {fileID: 2462948531081359089}
   - component: {fileID: 4301179058341807859}
   - component: {fileID: 7934721685806899353}
+  - component: {fileID: 3816922881009720461}
   m_Layer: 0
   m_Name: Bangunan
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -867,6 +868,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3816922881009720461
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2295178168265070956}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6265407319701489935, guid: 818d584c02c7b4740bbaa7997a0afcbf, type: 3}
 --- !u!1 &2606946312631039491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,9 +1268,10 @@ GameObject:
   - component: {fileID: 7527750809746167272}
   - component: {fileID: 60832717173371156}
   - component: {fileID: 7977590328403654857}
+  - component: {fileID: 949520081397759866}
   m_Layer: 0
   m_Name: Tempat minuman
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -1325,6 +1341,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &949520081397759866
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3522653097172367312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8568600539385965783, guid: 818d584c02c7b4740bbaa7997a0afcbf, type: 3}
 --- !u!1 &3567829528278346756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,9 +1698,10 @@ GameObject:
   - component: {fileID: 3607797855840953230}
   - component: {fileID: 6049514784659506046}
   - component: {fileID: 8246091291181626814}
+  - component: {fileID: 3025509476982963232}
   m_Layer: 0
   m_Name: Tempat minuman_3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1740,6 +1771,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3025509476982963232
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4788337733388371946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5941296906327041212, guid: 818d584c02c7b4740bbaa7997a0afcbf, type: 3}
 --- !u!1 &5037970946561654030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1786,9 +1831,10 @@ GameObject:
   - component: {fileID: 5938676826479258917}
   - component: {fileID: 3739591878823299214}
   - component: {fileID: 643251073327285346}
+  - component: {fileID: 6385103140829055459}
   m_Layer: 0
   m_Name: Tempat minuman_2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -1858,6 +1904,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6385103140829055459
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5046959439489788410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2322830117483112502, guid: 818d584c02c7b4740bbaa7997a0afcbf, type: 3}
 --- !u!1 &5356982984718009804
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,9 +2261,10 @@ GameObject:
   - component: {fileID: 2003236820489304971}
   - component: {fileID: 3227154405983108716}
   - component: {fileID: 3681601870985711948}
+  - component: {fileID: 1671328841000004356}
   m_Layer: 0
   m_Name: Tempat minuman_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2273,6 +2334,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1671328841000004356
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602379063810585120}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6868623400575316355, guid: 818d584c02c7b4740bbaa7997a0afcbf, type: 3}
 --- !u!1 &6735229274442106606
 GameObject:
   m_ObjectHideFlags: 0
@@ -2651,9 +2726,10 @@ GameObject:
   - component: {fileID: 2109474921328923606}
   - component: {fileID: 7382805260554876579}
   - component: {fileID: 2806553319458933608}
+  - component: {fileID: 3830000525286859485}
   m_Layer: 0
   m_Name: cube_4
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2723,6 +2799,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3830000525286859485
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7537160354910279645}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5278955087606263835, guid: 818d584c02c7b4740bbaa7997a0afcbf, type: 3}
 --- !u!1 &7920588459066277532
 GameObject:
   m_ObjectHideFlags: 0
