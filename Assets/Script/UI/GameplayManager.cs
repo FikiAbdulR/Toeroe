@@ -15,6 +15,7 @@ public class GameplayManager : MonoBehaviour
     public GameObject RoundClear;
     public GameObject StageClear;
     public GameObject GameOver;
+    public GameObject Setting;
 
     public bool isStart = false;
     public bool isPaused = true;
@@ -36,6 +37,7 @@ public class GameplayManager : MonoBehaviour
         RoundClear.SetActive(false);
         StageClear.SetActive(false);
         GameOver.SetActive(false);
+        Setting.SetActive(false);
 
         isStart = false;
         isEnd = false;
