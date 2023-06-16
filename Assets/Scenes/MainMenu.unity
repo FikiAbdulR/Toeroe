@@ -676,7 +676,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SampleScene
+          m_StringArgument: lvl_2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &236591780
@@ -3081,7 +3081,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SampleScene
+          m_StringArgument: lvl_3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1111643180
@@ -4682,7 +4682,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SampleScene
+          m_StringArgument: lvl_1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1457794539
@@ -6275,7 +6275,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SampleScene
+          m_StringArgument: lvl_4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1840544233
@@ -6976,7 +6976,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SampleScene
+          m_StringArgument: lvl_5
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2085201480
