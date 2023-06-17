@@ -140,17 +140,17 @@ MonoBehaviour:
   Player:
     serializedVersion: 2
     m_Bits: 64
-  Health: 10
-  speed: 1
-  walkRadius: 3.4
-  sightRange: 7.5
+  Health: 30
+  speed: 2
+  walkRadius: 15
+  sightRange: 40
   attackRange: 5
   playerInSightRange: 0
   playerInAttackRange: 0
   timer: 0
   randTime: 0
   BulletPoint: {fileID: 5147222982692761808}
-  timeBetweenAttacks: 4
+  timeBetweenAttacks: 1.5
   Projectile: {fileID: 1986634622092733233, guid: 1960388bb179c7c42a387e0b16fe34cc, type: 3}
   ProjectileSpeed: 6
   ProjectileVelocity: 4

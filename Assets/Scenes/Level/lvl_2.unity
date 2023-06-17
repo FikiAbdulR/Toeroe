@@ -34379,9 +34379,10 @@ PrefabInstance:
       objectReference: {fileID: 2036869979}
     - target: {fileID: 2141111571744642632, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
       propertyPath: m_text
-      value: Sebuah wabah menyerang desa dikarenakan bakteri DIFTERI bermutasi, banyak
-        warga yang menjadi korban dikarenakan tingkat imunisasi yang rendah, saat
-        ini tim khusus telah dikerahkan ke lokasi untuk menangani wabah di area tersebut
+      value: Sebuah wabah telah menyerang dikarenakan virus DIFTERI yang mengalami
+        mutasi. Banyak warga di desa tersebut menjadi korban akibat tingkat imunisasi
+        yang rendah. Tim khusus telah dikerahkan ke lokasi untuk menangani wabah
+        yang melanda area tersebut.
       objectReference: {fileID: 0}
     - target: {fileID: 2141111571783513126, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

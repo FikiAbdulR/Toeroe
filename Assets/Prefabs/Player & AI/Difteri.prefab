@@ -297,17 +297,17 @@ MonoBehaviour:
   Player:
     serializedVersion: 2
     m_Bits: 64
-  Health: 20
-  speed: 2
-  walkRadius: 5
-  sightRange: 20
+  Health: 50
+  speed: 3
+  walkRadius: 25
+  sightRange: 45
   attackRange: 2
   playerInSightRange: 0
   playerInAttackRange: 0
   timer: 0
   randTime: 0
   AttackBox: {fileID: 6775020545140212050}
-  timeBetweenAttacks: 4
+  timeBetweenAttacks: 2
   AiAnim: {fileID: 5558739394464745194}
 --- !u!1001 &1649722034150891757
 PrefabInstance:
