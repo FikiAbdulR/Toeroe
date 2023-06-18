@@ -18,7 +18,6 @@ public class SpawnerTest : MonoBehaviour
     private int activeObjects = 0; // Number of currently active objects
     private bool isWaveInProgress = false; // Flag to track if a wave is in progress
 
-
     [SerializeField] private TMP_Text roundCount;
     [SerializeField] private GameObject RoundPanel;
 
