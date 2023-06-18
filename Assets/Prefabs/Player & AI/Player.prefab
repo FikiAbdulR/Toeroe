@@ -80,7 +80,7 @@ MonoBehaviour:
   bulletPosition: {fileID: 8256217213044029247}
   FireRate: 5
   isFiring: 0
-  Ammunition: 50
+  Ammunition: 60
   MaxedAmmo: 0
   currentTotalAmmo: 0
   currentMag: 0
@@ -354,7 +354,7 @@ MonoBehaviour:
   bulletPosition: {fileID: 4224431073274723860}
   FireRate: 5
   isFiring: 0
-  Ammunition: 50
+  Ammunition: 60
   MaxedAmmo: 0
   currentTotalAmmo: 0
   currentMag: 0
@@ -410,7 +410,7 @@ MonoBehaviour:
   bulletPosition: {fileID: 5086679526646152726}
   FireRate: 5
   isFiring: 0
-  Ammunition: 50
+  Ammunition: 60
   MaxedAmmo: 0
   currentTotalAmmo: 0
   currentMag: 0

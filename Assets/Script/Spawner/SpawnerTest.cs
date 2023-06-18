@@ -34,8 +34,8 @@ public class SpawnerTest : MonoBehaviour
     {
         string[] tags = { "Type1", "Type2", "Type3" };
         List<GameObject> objectsWithTags = new List<GameObject>();
-        roundCount.text = "Wave " + currentWave.ToString();
 
+        roundCount.text = "Ronde " + currentWave.ToString();
 
         if (!GameplayManager.instance.isPaused)
         {
@@ -64,6 +64,7 @@ public class SpawnerTest : MonoBehaviour
                 {
                     // Start a new wave after a delay
                     RoundPanel.SetActive(true);
+
                     GameplayManager.instance.ClearRound(currentWave, true);
                     Invoke("StartNewWave", waveDelay);
                 }
@@ -73,11 +74,10 @@ public class SpawnerTest : MonoBehaviour
 
     private void StartNewWave()
     {
+        currentWave++;
         Debug.Log("Start Wave" + currentWave);
 
         GameplayManager.instance.ClearRound(currentWave, false);
-
-        currentWave++;
         spawnedObjects = 0;
         activeObjects = 0;
         isWaveInProgress = true;

@@ -34,7 +34,7 @@ public class PooledWeapon : MonoBehaviour
         Magazine = Ammunition;
         currentMag = Ammunition;
 
-        MaxedAmmo = Ammunition * 2;
+        MaxedAmmo = Ammunition * 4;
         currentTotalAmmo = MaxedAmmo;
 
         defaultCoolDown = ReloadCooldown;

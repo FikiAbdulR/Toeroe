@@ -143,7 +143,7 @@ MonoBehaviour:
   Health: 30
   speed: 1.5
   walkRadius: 15
-  sightRange: 40
+  sightRange: 150
   attackRange: 5
   playerInSightRange: 0
   playerInAttackRange: 0
