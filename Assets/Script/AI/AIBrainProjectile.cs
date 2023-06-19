@@ -164,6 +164,8 @@ public class AIBrainProjectile : MonoBehaviour
         {
             ///Attack code here
             Spawn();
+            SoundManagerScript.instance.Playsound(4);
+
             ///End of attack code
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);

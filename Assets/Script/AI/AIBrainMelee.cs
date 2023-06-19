@@ -152,6 +152,7 @@ public class AIBrainMelee : MonoBehaviour
         {
             ///Attack code here
             AttackBox.enabled = true;
+            SoundManagerScript.instance.Playsound(5);
 
             ///End of attack code
             alreadyAttacked = true;

@@ -23,6 +23,7 @@ public class AmmoKit : MonoBehaviour
         {
             if (col.transform.GetComponent<ShootingManager>().EquipedWeapon.currentTotalAmmo < col.transform.GetComponent<ShootingManager>().EquipedWeapon.MaxedAmmo)
             {
+                SoundManagerScript.instance.Playsound(3);
                 col.transform.GetComponent<ShootingManager>().EquipedWeapon.currentTotalAmmo += AddAmmo;
                 this.gameObject.SetActive(false);
             }

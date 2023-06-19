@@ -20,4 +20,9 @@ public class EraseObject : MonoBehaviour
     {
         this.transform.parent.gameObject.SetActive(false);
     }
+
+    public void DeathSound()
+    {
+        SoundManagerScript.instance.Playsound(2);
+    }
 }

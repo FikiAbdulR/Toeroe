@@ -98,6 +98,8 @@ public class PooledWeapon : MonoBehaviour
                         bullet.transform.rotation = bulletPosition.rotation;
                         bullet.SetActive(true);
                     }
+
+                    SoundManagerScript.instance.Playsound(1);
                 }
 
                 if (currentMag == 0 && currentTotalAmmo > 0)

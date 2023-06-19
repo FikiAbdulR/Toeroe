@@ -141,5 +141,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a86b9a43449f1341bf77ceb7340e382, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioList: []
+  AudioList:
+  - {fileID: 8300000, guid: 880dff145993353488a1f5dd3412efd7, type: 3}
+  - {fileID: 8300000, guid: 17f47b82ffb05fa4cb53328084d3b553, type: 3}
+  - {fileID: 8300000, guid: f8c2caf844eaf0848a056e82bc0e2490, type: 3}
+  - {fileID: 8300000, guid: ae8c6e74c7a6aa54fa5086fca6119945, type: 3}
+  - {fileID: 8300000, guid: 8b347a672680e154191793b56418e1aa, type: 3}
+  - {fileID: 8300000, guid: 16f72c417de14d142bc24691283fd336, type: 3}
   Source: {fileID: 3128725733835373504}

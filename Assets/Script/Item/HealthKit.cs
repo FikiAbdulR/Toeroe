@@ -24,6 +24,7 @@ public class HealthKit : MonoBehaviour
         {
             if(HealthManager.instance.HealthPoint < HealthManager.instance.DefaultHealth)
             {
+                SoundManagerScript.instance.Playsound(3);
                 HealthManager.instance.RestoreHealth(Medkit);
                 this.gameObject.SetActive(false);
             }

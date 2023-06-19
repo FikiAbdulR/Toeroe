@@ -45241,7 +45241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 1235153687209921306, guid: ac4936e100ac35849a54ff7ac7d3f608, type: 3}
-  pooledAmount: 25
+  pooledAmount: 15
   pooledObjects: []
 --- !u!1001 &1718303603
 PrefabInstance:
@@ -56132,7 +56132,7 @@ GameObject:
   - component: {fileID: 2143462045}
   - component: {fileID: 2143462046}
   m_Layer: 0
-  m_Name: ObjectPool (1)
+  m_Name: ObjectPool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
