@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class LevelSelectManager : MonoBehaviour
 {
+    public GameObject[] Panel;
     public Button[] LockedLevel;
     private int[] lvlStatus;
 
@@ -30,37 +31,45 @@ public class LevelSelectManager : MonoBehaviour
         if(levelStatus2 == 1)
         {
             LockedLevel[0].interactable = true;
+            Panel[0].SetActive(true);
         }
         else
         {
             LockedLevel[0].interactable = false;
+            Panel[0].SetActive(false);
         }
 
         if (levelStatus3 == 1)
         {
             LockedLevel[1].interactable = true;
+            Panel[1].SetActive(true);
         }
         else
         {
             LockedLevel[1].interactable = false;
+            Panel[1].SetActive(false);
         }
 
         if (levelStatus4 == 1)
         {
             LockedLevel[2].interactable = true;
+            Panel[2].SetActive(true);
         }
         else
         {
             LockedLevel[2].interactable = false;
+            Panel[2].SetActive(false);
         }
 
         if (levelStatus5 == 1)
         {
             LockedLevel[3].interactable = true;
+            Panel[3].SetActive(true);
         }
         else
         {
             LockedLevel[3].interactable = false;
+            Panel[3].SetActive(false);
         }
     }
 
@@ -70,6 +79,11 @@ public class LevelSelectManager : MonoBehaviour
         PlayerPrefs.DeleteKey("Level3");
         PlayerPrefs.DeleteKey("Level4");
         PlayerPrefs.DeleteKey("Level5");
+
+        Panel[0].SetActive(false);
+        Panel[1].SetActive(false);
+        Panel[2].SetActive(false);
+        Panel[3].SetActive(false);
 
         LevelCheck();
     }

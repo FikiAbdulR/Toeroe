@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ce3277a0211d9439c9bfbb759c40aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AddAmmo: 10
+  AddAmmo: 90
 --- !u!1 &3883233281529575768
 GameObject:
   m_ObjectHideFlags: 0

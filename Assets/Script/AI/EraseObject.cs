@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EraseObject : MonoBehaviour
 {
+    public GameObject Enemy;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +20,7 @@ public class EraseObject : MonoBehaviour
 
     public void Delete()
     {
-        this.transform.parent.gameObject.SetActive(false);
+        Enemy.gameObject.SetActive(false);
     }
 
     public void DeathSound()

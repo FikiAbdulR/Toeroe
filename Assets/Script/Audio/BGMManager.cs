@@ -8,8 +8,8 @@ public class BGMManager : MonoBehaviour
     public AudioSource Music;
     public AudioSource Sfx;
 
-    int AudioState;
-    int SfxState;
+    int AudioState = 1;
+    int SfxState = 1;
 
     // Start is called before the first frame update
     void Start()
