@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -5743443184205892857}
   - component: {fileID: 4287176557140366322}
   m_Layer: 0
-  m_Name: Projectile Monster
+  m_Name: Projectile Monster 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,6 +137,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2282013107831434720}
     m_Modifications:
+    - target: {fileID: -8719868982634672749, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
     - target: {fileID: -8679921383154817045, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -181,10 +185,66 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8605912533350069611, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: -8536813620637169016, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: -8387067386147652399, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: -8239699971460385190, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: -7148669853607303264, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: -6013799211754910423, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: -4730112112717978611, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: -629392271669159207, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
     - target: {fileID: 919132149155446097, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
       propertyPath: m_Name
       value: Enemy_Projectile
       objectReference: {fileID: 0}
+    - target: {fileID: 2624664555644683048, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: 3806389547537580113, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: 4728225312481372406, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: 7094495598459399066, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: 7471424596946223968, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
+    - target: {fileID: 8445669974896472903, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 655008e8004ee5444b337adea19b46e6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c15b04a3972482e44af8c7f365e27e15, type: 3}
 --- !u!4 &7911388125777439072 stripped

@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: texture_ProjectileEnemy.png
-    second: {fileID: 2100000, guid: 18ddc9a6346c41647be573dbdb35f9c9, type: 2}
+    second: {fileID: 2100000, guid: 04900de625fda654cbaf7632368cef62, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule

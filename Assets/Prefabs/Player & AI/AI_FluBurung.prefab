@@ -143,7 +143,7 @@ MonoBehaviour:
   Health: 30
   speed: 2
   walkRadius: 15
-  sightRange: 40
+  sightRange: 150
   attackRange: 5
   playerInSightRange: 0
   playerInAttackRange: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   randTime: 0
   BulletPoint: {fileID: 5147222982692761808}
   timeBetweenAttacks: 1.5
-  Projectile: {fileID: 1986634622092733233, guid: 1960388bb179c7c42a387e0b16fe34cc, type: 3}
+  Projectile: {fileID: 1986634622092733233, guid: 01d35e032bac29843ab1f8e5f0505223, type: 3}
   ProjectileSpeed: 6
   ProjectileVelocity: 4
   AiAnim: {fileID: 8925962533186615999}
@@ -213,7 +213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5147222984153658197}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
