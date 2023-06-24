@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: -5743443184205892857}
-  Damage: 10
+  Damage: 15
 --- !u!1001 &7656221522252025483
 PrefabInstance:
   m_ObjectHideFlags: 0
