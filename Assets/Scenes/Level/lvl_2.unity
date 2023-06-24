@@ -495,6 +495,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6940489636553936023, guid: 8e3aae3a5cba14748b5b7a213b5866a4, type: 3}
   m_PrefabInstance: {fileID: 8264042}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &12932827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8907837989221300226, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+  m_PrefabInstance: {fileID: 1303861313}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &13646323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30817,6 +30822,17 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 3128725733835373504, guid: b0622d0f2f47fb14fb6ad8271ea7cabb, type: 3}
   m_PrefabInstance: {fileID: 1159923998}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1159924000 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3128725733835373534, guid: b0622d0f2f47fb14fb6ad8271ea7cabb, type: 3}
+  m_PrefabInstance: {fileID: 1159923998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a86b9a43449f1341bf77ceb7340e382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1160203210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34786,9 +34802,37 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2036869978}
     - target: {fileID: 2141111571447030203, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141111571447030203, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141111571447030203, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 2036869979}
+      objectReference: {fileID: 1159924000}
+    - target: {fileID: 2141111571447030203, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141111571447030203, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Playsound
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141111571447030203, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: SoundManagerScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141111571447030203, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141111571447030203, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2141111571744642632, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
       propertyPath: m_text
       value: Sebuah wabah telah menyerang dikarenakan virus DIFTERI yang mengalami
@@ -34891,6 +34935,42 @@ PrefabInstance:
     - target: {fileID: 2141111572181748349, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157505291071387580, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157505291071387580, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157505291071387580, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2036869979}
+    - target: {fileID: 3157505291071387580, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1159924000}
+    - target: {fileID: 3157505291071387580, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157505291071387580, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157505291071387580, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Playsound
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157505291071387580, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundManagerScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3157505291071387580, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6910513221466749026, guid: fbdd657c61681a94e8d70a7f0ed10bf6, type: 3}
       propertyPath: m_VideoClip
@@ -54099,6 +54179,10 @@ PrefabInstance:
       propertyPath: GameOver
       value: 
       objectReference: {fileID: 1303861318}
+    - target: {fileID: 8732376619188950161, guid: c77a5eb1d7015534c9738f4b144e254b, type: 3}
+      propertyPath: howToPlay
+      value: 
+      objectReference: {fileID: 12932827}
     - target: {fileID: 8732376619188950161, guid: c77a5eb1d7015534c9738f4b144e254b, type: 3}
       propertyPath: PausePanel
       value: 

@@ -11,6 +11,7 @@ public class GameplayManager : MonoBehaviour
     private InteractManager Int_Manager;
 
     public GameObject briefPanel;
+    public GameObject howToPlay;
     public GameObject PausePanel;
     public GameObject RoundClear;
     public GameObject StageClear;
@@ -33,6 +34,7 @@ public class GameplayManager : MonoBehaviour
     void Start()
     {
         briefPanel.SetActive(true);
+        howToPlay.SetActive(false);
         PausePanel.SetActive(false);
         RoundClear.SetActive(false);
         StageClear.SetActive(false);
@@ -60,6 +62,10 @@ public class GameplayManager : MonoBehaviour
                     {
                         //isPaused = true;
                         PausePanel.SetActive(false);
+                        if(Setting.activeInHierarchy == true)
+                        {
+                            Setting.SetActive(false);
+                        }
                         Time.timeScale = 1f;
                     }
                     else
@@ -79,7 +85,7 @@ public class GameplayManager : MonoBehaviour
 
     public void StartGame()
     {
-        briefPanel.SetActive(false);
+        howToPlay.SetActive(false);
         isStart = true;
     }
 
