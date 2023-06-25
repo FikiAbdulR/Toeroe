@@ -6382,7 +6382,7 @@ GameObject:
   - component: {fileID: 279030049}
   m_Layer: 0
   m_Name: Navmesh
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -21879,7 +21879,7 @@ GameObject:
   - component: {fileID: 848327201}
   m_Layer: 0
   m_Name: Navmesh
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -24567,7 +24567,7 @@ GameObject:
   - component: {fileID: 940292978}
   m_Layer: 0
   m_Name: Water (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25430,7 +25430,7 @@ GameObject:
   - component: {fileID: 968609563}
   m_Layer: 0
   m_Name: Water
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34051,7 +34051,7 @@ GameObject:
   - component: {fileID: 1267135859}
   m_Layer: 0
   m_Name: Navmesh
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -52282,7 +52282,7 @@ GameObject:
   - component: {fileID: 1966786722}
   m_Layer: 0
   m_Name: Navmesh
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
