@@ -34,7 +34,15 @@ public class SpawnerTest : MonoBehaviour
         string[] tags = { "Type1", "Type2", "Type3" };
         List<GameObject> objectsWithTags = new List<GameObject>();
 
-        roundCount.text = "Ronde " + currentWave.ToString();
+        if(currentWave > 0)
+        {
+            roundCount.text = "Ronde " + currentWave.ToString();
+        }
+        else
+        {
+            roundCount.text = "---";
+        }
+
 
         if (!GameplayManager.instance.isPaused)
         {
