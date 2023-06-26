@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public Vector2 move, mouseLook;
     public Vector3 rotationTarget;
+    private float gravity = 9.8f;
+    private Vector3 moveDirection = Vector3.zero;
 
     public CharacterController controller;
     public bool isPC;
@@ -17,7 +19,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
@@ -72,12 +74,14 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 0.15f);
         }
 
-        controller.Move(movement * speed * Time.deltaTime);
+        // Apply gravity
+        moveDirection.y -= gravity * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
     }
 
     public void movePlayerWithAim()
     {
-        if(isPC)
+        if (isPC)
         {
             var lookPos = rotationTarget - transform.position;
             lookPos.y = 0;
@@ -85,13 +89,16 @@ public class PlayerController : MonoBehaviour
 
             Vector3 aimDirection = new Vector3(rotationTarget.x, 0f, rotationTarget.z);
 
-            if(aimDirection != Vector3.zero)
+            if (aimDirection != Vector3.zero)
             {
                 transform.rotation = Quaternion.Slerp(transform.rotation, rotation, 0.15f);
             }
         }
 
         Vector3 movement = new Vector3(move.x, 0f, move.y);
-        controller.Move(movement * speed * Time.deltaTime);
+
+        // Apply gravity
+        moveDirection.y -= gravity * Time.deltaTime;
+        controller.Move(movement * speed * Time.deltaTime + moveDirection * Time.deltaTime);
     }
 }
