@@ -45,7 +45,7 @@ public class ShootingManager : MonoBehaviour
     {
         if(GameplayManager.instance.isStart == true)
         {
-            if (GameplayManager.instance.isEnd == false)
+            if (!GameplayManager.instance.isEnd)
             {
                 if (!GameplayManager.instance.isPaused)
                 {

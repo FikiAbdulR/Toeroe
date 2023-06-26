@@ -23,7 +23,7 @@ public class BGMManager : MonoBehaviour
 
         if(AudioState == 1)
         {
-            Music.volume = 1f;
+            Music.volume = 0.8f;
         }
         else if(AudioState == 0)
         {
@@ -32,7 +32,7 @@ public class BGMManager : MonoBehaviour
 
         if(SfxState == 1)
         {
-            Sfx.volume = 1f;
+            Sfx.volume = 0.8f;
         }
         else if(SfxState == 0)
         {

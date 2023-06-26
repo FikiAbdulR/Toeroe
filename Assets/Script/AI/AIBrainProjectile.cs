@@ -69,36 +69,41 @@ public class AIBrainProjectile : MonoBehaviour
 
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, Player);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, Player);
-       
-        if(!GameplayManager.instance.isPaused)
+        if (!GameplayManager.instance.isEnd)
         {
-            agent.Resume();
+            if (!GameplayManager.instance.isPaused)
+            {
+                agent.Resume();
 
-            if (!playerInSightRange && !playerInAttackRange)
-            {
-                Patrol();
-                AiAnim.SetBool("Attack", false);
-            }
-            else if (playerInSightRange && !playerInAttackRange)
-            {
-                Chase(); AiAnim.SetBool("Attack", false);
-            }
-            else if (playerInAttackRange && playerInSightRange)
-            {
-                Attack();
-                AiAnim.SetBool("Attack", true);
-            }
+                if (!playerInSightRange && !playerInAttackRange)
+                {
+                    Patrol();
+                    AiAnim.SetBool("Attack", false);
+                }
+                else if (playerInSightRange && !playerInAttackRange)
+                {
+                    Chase(); AiAnim.SetBool("Attack", false);
+                }
+                else if (playerInAttackRange && playerInSightRange)
+                {
+                    Attack();
+                    AiAnim.SetBool("Attack", true);
+                }
 
-            if (Health == 0)
+                if (Health == 0)
+                {
+                    EnemyDeath();
+                }
+            }
+            else
             {
-                EnemyDeath();
+                agent.Stop();
             }
         }
         else
         {
             agent.Stop();
         }
-
     }
     private void ResetAttack()
     {
