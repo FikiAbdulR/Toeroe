@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5103043163404436718}
   - component: {fileID: 8178111605884193611}
   - component: {fileID: 6240452399940173697}
+  - component: {fileID: 2265169421096364365}
   m_Layer: 0
   m_Name: Jembatan
   m_TagString: Wall
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2265169421096364365
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5591911719070162516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5668833170292645477, guid: 1a9d93380f78073429add924188400b5, type: 3}
