@@ -94,7 +94,7 @@ public class GameplayManager : MonoBehaviour
         if (Alpha == true)
         {
             RoundClear.SetActive(true);
-            RoundClear.transform.GetComponentInChildren<TMP_Text>().text = "Round " + Rcount + " Clear".ToString();
+            RoundClear.transform.GetComponentInChildren<TMP_Text>().text = "Ronde " + Rcount + " Selesai!".ToString();
         }
         else if (Alpha == false)
         {
