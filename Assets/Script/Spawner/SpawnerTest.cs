@@ -55,7 +55,6 @@ public class SpawnerTest : MonoBehaviour
             GameObject[] totalObjects = objectsWithTags.ToArray();
             activeObjects = totalObjects.Length;
 
-
             // Check if all objects in the current wave are inactive
             if (isWaveInProgress && activeObjects == 0)
             {

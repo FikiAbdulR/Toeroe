@@ -53,7 +53,7 @@ public class SettingsManager : MonoBehaviour
         if (AudioState == 1)
         {
             image.sprite = Switch[1];
-            BGMManager.Instance.Music.volume = 1f;
+            BGMManager.Instance.Music.volume = 0.75f;
         }
         else
         {
@@ -80,7 +80,7 @@ public class SettingsManager : MonoBehaviour
         if (SfxState == 1)
         {
             image.sprite = Switch[1];
-            BGMManager.Instance.Sfx.volume = 1f;
+            BGMManager.Instance.Sfx.volume = 0.5f;
         }
         else
         {
