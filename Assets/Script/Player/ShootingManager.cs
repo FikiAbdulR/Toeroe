@@ -43,7 +43,7 @@ public class ShootingManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameplayManager.instance.isStart == true)
+        if(GameplayManager.instance.isStart)
         {
             if (!GameplayManager.instance.isEnd)
             {

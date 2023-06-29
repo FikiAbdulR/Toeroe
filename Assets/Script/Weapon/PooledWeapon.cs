@@ -54,61 +54,66 @@ public class PooledWeapon : MonoBehaviour
     void Update()
     {
         //reloadProgressBar.fillAmount = ReloadCooldown / defaultCoolDown;
-
-        //Sistem Cooldown
-        if(Reloading)
+        if (!GameplayManager.instance.isEnd)
         {
-            if(ReloadCooldown > 0)
+            if (!GameplayManager.instance.isPaused)
             {
-                ReloadCooldown -= Time.deltaTime;
-            }
-            else
-            {
-                Reloading = false;
-                ReloadCooldown = defaultCoolDown;
-                Reload();
-            }
-        }
-
-        if(currentTotalAmmo < 0) //Agar nilai total ammo tidak dibawah 0
-        {
-            currentTotalAmmo = 0;
-        }
-
-        if(currentTotalAmmo > MaxedAmmo)
-        {
-            currentTotalAmmo = MaxedAmmo;
-        }
-
-        //bulletLeft = Ammunition - currentMag;
-
-        if (currentMag > 0)
-        {
-            if (isFiring && !Reloading)
-            {
-                if (Time.time - lastFired > 1 / FireRate)
+                //Sistem Cooldown
+                if (Reloading)
                 {
-                    lastFired = Time.time;
-                    GameObject bullet = GetPooledObject();
-                    currentMag -= 1;
-
-                    if (bullet != null)
+                    if (ReloadCooldown > 0)
                     {
-                        bullet.transform.position = bulletPosition.position;
-                        bullet.transform.rotation = bulletPosition.rotation;
-                        bullet.SetActive(true);
+                        ReloadCooldown -= Time.deltaTime;
                     }
-
-                    SoundManagerScript.instance.Playsound(1);
+                    else
+                    {
+                        Reloading = false;
+                        ReloadCooldown = defaultCoolDown;
+                        Reload();
+                    }
                 }
 
-                if (currentMag == 0 && currentTotalAmmo > 0)
+                if (currentTotalAmmo < 0) //Agar nilai total ammo tidak dibawah 0
                 {
-                    Reloading = true;
+                    currentTotalAmmo = 0;
                 }
-                
+
+                if (currentTotalAmmo > MaxedAmmo)
+                {
+                    currentTotalAmmo = MaxedAmmo;
+                }
+
+                //bulletLeft = Ammunition - currentMag;
+
+                if (currentMag > 0)
+                {
+                    if (isFiring && !Reloading)
+                    {
+                        if (Time.time - lastFired > 1 / FireRate)
+                        {
+                            lastFired = Time.time;
+                            GameObject bullet = GetPooledObject();
+                            currentMag -= 1;
+
+                            if (bullet != null)
+                            {
+                                bullet.transform.position = bulletPosition.position;
+                                bullet.transform.rotation = bulletPosition.rotation;
+                                bullet.SetActive(true);
+                            }
+
+                            SoundManagerScript.instance.Playsound(1);
+                        }
+
+                        if (currentMag == 0 && currentTotalAmmo > 0)
+                        {
+                            Reloading = true;
+                        }
+
+                    }
+                }
             }
-        }
+        }  
     }
 
     public void Fire()
