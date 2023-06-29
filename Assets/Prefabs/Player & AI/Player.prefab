@@ -515,6 +515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Syringe_Gun
       objectReference: {fileID: 0}
+    - target: {fileID: 7761660367480429409, guid: f6a643c20823a094fa48fc7df14c1248, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58733abf7987a26428e9dfbc7c76a140, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6a643c20823a094fa48fc7df14c1248, type: 3}
 --- !u!4 &6912293663554619905 stripped
@@ -651,6 +655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Syringe_Gun
       objectReference: {fileID: 0}
+    - target: {fileID: 7761660367480429409, guid: f6a643c20823a094fa48fc7df14c1248, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebee41a996a4a9b42a035878097f9e98, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6a643c20823a094fa48fc7df14c1248, type: 3}
 --- !u!4 &7019064496226890841 stripped
