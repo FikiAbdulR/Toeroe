@@ -69,7 +69,10 @@ public class SpawnerTest : MonoBehaviour
                 else
                 {
                     // Start a new wave after a delay
-                    RoundPanel.SetActive(true);
+                    if(currentWave > 0)
+                    {
+                        RoundPanel.SetActive(true);
+                    }
 
                     GameplayManager.instance.ClearRound(currentWave, true);
                     Invoke("StartNewWave", waveDelay);
